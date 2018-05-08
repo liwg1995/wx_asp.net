@@ -1,0 +1,43 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; }
+body, button, input, select, textarea { font: 12px/1.5 Microsoft YaHei,arial,\5b8b\4f53;}
+h1, h2, h3, h4, h5, h6, button, input, select, textarea { font-size: 100%; }
+ol, ul { list-style: none; }
+img { border: 0; }
+em, cite, i, var, s { font-style: normal; }
+table { border-collapse: collapse; border-spacing: 0; }
+a { color: #333; text-decoration: none; }
+a:visited, a:active { text-decoration: none; }
+a:hover { color: #f60; text-decoration: none; }
+.fl { float: left; }
+.fr { float: right; }
+.f12 { font-size: 12px; }
+.f14 { font-size: 14px; }
+.f16 { font-size: 16px; }
+.mt10{ margin-top:10px;}
+.ml10{ margin-left:10px;}
+.mr10{margin-right:10px}
+.gray{ color:#999}
+.blue{color:#2b91d8}
+.green{ color:#2ab200}
+.red{color:#F00}
+.yh { font-family: "Microsoft YaHei" ,Verdana, "SimSun" ,sans-serif; }
+pre { white-space: pre-wrap; word-wrap: break-word; font-family: Verdana,sans-serif; }
+.hidden { display: none; }
+hr {  padding: 0; font-size: 0; line-height: 0; height: 0; border: solid #DDD; border-width: 0 0 1px; }
+.al{text-align:left;}
+.ac{text-align:center;}
+.ar{text-align:right;}
+.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;}
+.clearfix {*zoom:1;}
+.clearfix:after { content: " "; display: block; height: 0; clear: both; visibility: hidden; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+/* End hide from IE-mac */
+section, article, aside, header, footer, nav, dialog, figure {display: block;} /*让老本的浏览器支持语义化标签*/
+
+
+/* 强制换行 */
+.break-word{word-wrap: break-word; word-break:break-all;}
+/* 强制不换行 */
+.nowarp{white-space:nowrap;}

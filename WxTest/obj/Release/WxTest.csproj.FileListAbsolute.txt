@@ -1,0 +1,79 @@
+J:\测试代码\JsonTest\MyBookCode\WxTest\bin\WxTest.dll.config
+J:\测试代码\JsonTest\MyBookCode\WxTest\bin\WxTest.dll
+J:\测试代码\JsonTest\MyBookCode\WxTest\bin\WxTest.pdb
+J:\测试代码\JsonTest\MyBookCode\WxTest\bin\Newtonsoft.Json.dll
+J:\测试代码\JsonTest\MyBookCode\WxTest\bin\WxApi.dll
+J:\测试代码\JsonTest\MyBookCode\WxTest\bin\WxApi.pdb
+J:\测试代码\JsonTest\MyBookCode\WxTest\bin\Newtonsoft.Json.pdb
+J:\测试代码\JsonTest\MyBookCode\WxTest\bin\Newtonsoft.Json.xml
+J:\测试代码\JsonTest\MyBookCode\WxTest\obj\Release\WxTest.csprojResolveAssemblyReference.cache
+J:\测试代码\JsonTest\MyBookCode\WxTest\obj\Release\WxTest.dll
+J:\测试代码\JsonTest\MyBookCode\WxTest\obj\Release\WxTest.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\WxTest.dll.config
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\WxTest.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\WxTest.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\Newtonsoft.Json.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\WxApi.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\Gma.QrCodeNet.Encoding.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\WxApi.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\Newtonsoft.Json.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\Newtonsoft.Json.xml
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\Gma.QrCodeNet.Encoding.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\bin\Gma.QrCodeNet.Encoding.xml
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\obj\Release\WxTest.csprojResolveAssemblyReference.cache
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\obj\Release\WxTest.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxTest\obj\Release\WxTest.pdb
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\WxTest.dll.config
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\WxTest.dll
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\WxTest.pdb
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\Business.dll
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\DataAccess.dll
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\WxApi.dll
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\Business.pdb
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\DataAccess.pdb
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\WxApi.pdb
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\Newtonsoft.Json.pdb
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\obj\Release\WxTest.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\obj\Release\WxTest.dll
+C:\Users\admin\Desktop\微信项目\源代码\WxTest\obj\Release\WxTest.pdb
+E:\2016微信项目\源代码\WxTest\bin\WxTest.dll.config
+E:\2016微信项目\源代码\WxTest\bin\WxTest.dll
+E:\2016微信项目\源代码\WxTest\bin\WxTest.pdb
+E:\2016微信项目\源代码\WxTest\bin\Business.dll
+E:\2016微信项目\源代码\WxTest\bin\DataAccess.dll
+E:\2016微信项目\源代码\WxTest\bin\Newtonsoft.Json.dll
+E:\2016微信项目\源代码\WxTest\bin\WxApi.dll
+E:\2016微信项目\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.dll
+E:\2016微信项目\源代码\WxTest\bin\Business.pdb
+E:\2016微信项目\源代码\WxTest\bin\DataAccess.pdb
+E:\2016微信项目\源代码\WxTest\bin\WxApi.pdb
+E:\2016微信项目\源代码\WxTest\bin\Newtonsoft.Json.pdb
+E:\2016微信项目\源代码\WxTest\bin\Newtonsoft.Json.xml
+E:\2016微信项目\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.pdb
+E:\2016微信项目\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.xml
+E:\2016微信项目\源代码\WxTest\obj\Release\WxTest.csprojResolveAssemblyReference.cache
+E:\2016微信项目\源代码\WxTest\obj\Release\WxTest.dll
+E:\2016微信项目\源代码\WxTest\obj\Release\WxTest.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\WxTest.dll.config
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\WxTest.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\WxTest.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\Business.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\DataAccess.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\Newtonsoft.Json.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\WxApi.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\Business.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\DataAccess.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\WxApi.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\Newtonsoft.Json.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\Newtonsoft.Json.xml
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\bin\Gma.QrCodeNet.Encoding.xml
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\obj\Release\WxTest.csprojResolveAssemblyReference.cache
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\obj\Release\WxTest.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxTest\obj\Release\WxTest.pdb

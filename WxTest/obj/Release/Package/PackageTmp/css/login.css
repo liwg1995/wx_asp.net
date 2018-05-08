@@ -1,0 +1,15 @@
+body{ background:url(../images/bigbg.gif) 0 0 repeat;}
+#page{width:660px;height:337px; background:url(../images/bg_05.png) 0 0 no-repeat;margin:200px auto 0px auto;padding:40px 0px 0px 50px;}
+.login-form{padding:95px 0px 0px 150px}
+.login-form ul{ list-style:none}
+
+.section li{ _heihgt: 1%; overflow: hidden; margin-bottom: 7px; line-height: 34px; padding-left: 7em; _zoom: 1; }
+.section .label-like { float: left; height: 34px; text-align: right; overflow: hidden;margin-left: -6em; width: 4em; text-align: right; font-size:12px; color:#069}
+.section .input-short { width: 87px; }
+.section .input-long { width: 225px; }
+.section .inputtext { padding: 4px 3px; height: 18px; line-height: 18px; border: 1px solid #A0A0A0; color: #404040; font-size:14px;width:225px; outline:none;}
+.section .inputtext-bor { padding: 4px 3px; height: 16px; line-height: 16px; border: 2px solid #00a0e9; color: #404040; font-size:14px;width: 225px; outline:none;}
+.section .inputtext, .section textarea,.section .inputtext-bor{ background-color: transparent; background-attachment: scroll; background:url(../images/inputBg_05.gif) 0 0 repeat-x }
+.section .log-btn{ background:url(../images/logBtn_05.png) 0 0 no-repeat;width:88px;height:37px; cursor:pointer;border:none}
+.section .name{ background:url(../images/pd_34.png) 0 10px no-repeat;padding-left:15px;}
+.section .pwd{ background:url(../images/pd_54.png) 0 10px no-repeat;padding-left:15px;}

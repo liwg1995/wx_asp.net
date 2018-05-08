@@ -1,0 +1,56 @@
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\Business\bin\Debug\Business.dll
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\Business\bin\Debug\Business.pdb
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\Business\bin\Debug\DataAccess.dll
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\Business\bin\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\Business\obj\Debug\Business.dll
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\Business\obj\Debug\Business.pdb
+C:\Users\admin\Desktop\源代码\Business\bin\Debug\Business.dll
+C:\Users\admin\Desktop\源代码\Business\bin\Debug\Business.pdb
+C:\Users\admin\Desktop\源代码\Business\bin\Debug\DataAccess.dll
+C:\Users\admin\Desktop\源代码\Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\源代码\Business\bin\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\源代码\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\源代码\Business\obj\Debug\Business.dll
+C:\Users\admin\Desktop\源代码\Business\obj\Debug\Business.pdb
+C:\Users\admin\Desktop\微信项目\源代码\Business\bin\Debug\Business.dll
+C:\Users\admin\Desktop\微信项目\源代码\Business\bin\Debug\Business.pdb
+C:\Users\admin\Desktop\微信项目\源代码\Business\bin\Debug\DataAccess.dll
+C:\Users\admin\Desktop\微信项目\源代码\Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\微信项目\源代码\Business\bin\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\微信项目\源代码\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\微信项目\源代码\Business\obj\Debug\Business.dll
+C:\Users\admin\Desktop\微信项目\源代码\Business\obj\Debug\Business.pdb
+E:\2016微信项目\源代码\Business\bin\Debug\Business.dll
+E:\2016微信项目\源代码\Business\bin\Debug\Business.pdb
+E:\2016微信项目\源代码\Business\bin\Debug\DataAccess.dll
+E:\2016微信项目\源代码\Business\bin\Debug\Newtonsoft.Json.dll
+E:\2016微信项目\源代码\Business\bin\Debug\DataAccess.pdb
+E:\2016微信项目\源代码\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\2016微信项目\源代码\Business\obj\Debug\Business.dll
+E:\2016微信项目\源代码\Business\obj\Debug\Business.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\Business\bin\Debug\Business.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\Business\bin\Debug\Business.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\Business\bin\Debug\DataAccess.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\Business\bin\Debug\Newtonsoft.Json.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\Business\bin\Debug\DataAccess.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\Business\obj\Debug\Business.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\Business\obj\Debug\Business.pdb
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\Business\bin\Debug\Business.dll
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\Business\bin\Debug\Business.pdb
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\Business\bin\Debug\DataAccess.dll
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\Business\bin\Debug\Newtonsoft.Json.dll
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\Business\bin\Debug\DataAccess.pdb
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\Business\obj\Debug\Business.dll
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\Business\obj\Debug\Business.pdb
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\Business\bin\Debug\Business.dll
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\Business\bin\Debug\Business.pdb
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\Business\bin\Debug\DataAccess.dll
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\Business\bin\Debug\Newtonsoft.Json.dll
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\Business\bin\Debug\DataAccess.pdb
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\Business\obj\Debug\Business.dll
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\Business\obj\Debug\Business.pdb

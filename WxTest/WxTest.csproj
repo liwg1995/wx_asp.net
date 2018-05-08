@@ -1,0 +1,1897 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC3A55E5-AB63-4762-84F3-04794C2D1245}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WxTest</RootNamespace>
+    <AssemblyName>WxTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.0.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WxApi\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\article.aspx" />
+    <Content Include="admin\articletb.aspx" />
+    <Content Include="admin\bbs.aspx" />
+    <Content Include="admin\bbstb.aspx" />
+    <Content Include="admin\correcting.aspx" />
+    <Content Include="admin\correctingtb.aspx" />
+    <Content Include="admin\homework.aspx" />
+    <Content Include="admin\homeworktb.aspx" />
+    <Content Include="admin\index.html" />
+    <Content Include="admin\material.aspx" />
+    <Content Include="admin\materialtb.aspx" />
+    <Content Include="admin\menulevel1.aspx" />
+    <Content Include="admin\menulevel1tb.aspx" />
+    <Content Include="admin\menulevel2.aspx" />
+    <Content Include="admin\menulevel2tb.aspx" />
+    <Content Include="admin\messgae.aspx" />
+    <Content Include="admin\messgaetb.aspx" />
+    <Content Include="admin\sendmaterial.aspx" />
+    <Content Include="admin\sendarticle.aspx" />
+    <Content Include="admin\themess.aspx" />
+    <Content Include="admin\themesstb.aspx" />
+    <Content Include="admin\thetitle.aspx" />
+    <Content Include="admin\thetitletb.aspx" />
+    <Content Include="admin\userinfo.aspx" />
+    <Content Include="admin\sendtext.aspx" />
+    <Content Include="admin\userinfotb.aspx" />
+    <Content Include="admin\informations.aspx" />
+    <Content Include="admin\users.aspx" />
+    <Content Include="admin\informationstb.aspx" />
+    <Content Include="admin\userstb.aspx" />
+    <Content Include="bin\LitJSON.dll" />
+    <Content Include="css\base.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\select.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\sub.css" />
+    <Content Include="css\tt.css" />
+    <Content Include="Customer.aspx" />
+    <Content Include="debug.txt" />
+    <Content Include="images\001.jpg" />
+    <Content Include="images\404.png" />
+    <Content Include="images\add.png" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\bar_05.gif" />
+    <Content Include="images\bg_05.png" />
+    <Content Include="images\bg_input_text.png" />
+    <Content Include="images\bigbg.gif" />
+    <Content Include="images\blocks.gif" />
+    <Content Include="images\btnbg.png" />
+    <Content Include="images\btnbg1.png" />
+    <Content Include="images\btnbg2.png" />
+    <Content Include="images\btn_25.png" />
+    <Content Include="images\btn_27.png" />
+    <Content Include="images\btn_bg.png" />
+    <Content Include="images\buttonbg.png" />
+    <Content Include="images\c01.png" />
+    <Content Include="images\c02.png" />
+    <Content Include="images\c03.png" />
+    <Content Include="images\CategorizeMenu.png" />
+    <Content Include="images\cbg.png" />
+    <Content Include="images\clist.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\close1.png" />
+    <Content Include="images\cloud.png" />
+    <Content Include="images\curmb_12.png" />
+    <Content Include="images\d01.png" />
+    <Content Include="images\d02.png" />
+    <Content Include="images\d03.png" />
+    <Content Include="images\d04.png" />
+    <Content Include="images\d05.png" />
+    <Content Include="images\d06.png" />
+    <Content Include="images\d07.png" />
+    <Content Include="images\directory.png" />
+    <Content Include="images\diskbg.png" />
+    <Content Include="images\dp.png" />
+    <Content Include="images\f01.png" />
+    <Content Include="images\f02.png" />
+    <Content Include="images\f03.png" />
+    <Content Include="images\f04.png" />
+    <Content Include="images\f05.png" />
+    <Content Include="images\f06.png" />
+    <Content Include="images\hd.jpg" />
+    <Content Include="images\help.png" />
+    <Content Include="images\i01.png" />
+    <Content Include="images\i02.png" />
+    <Content Include="images\i03.png" />
+    <Content Include="images\i04.png" />
+    <Content Include="images\i05.png" />
+    <Content Include="images\i06.png" />
+    <Content Include="images\i07.png" />
+    <Content Include="images\i08.png" />
+    <Content Include="images\i09.png" />
+    <Content Include="images\iadd.png" />
+    <Content Include="images\ibtnbg.png" />
+    <Content Include="images\ico01.png" />
+    <Content Include="images\ico02.png" />
+    <Content Include="images\ico03.png" />
+    <Content Include="images\ico04.png" />
+    <Content Include="images\ico05.png" />
+    <Content Include="images\ico06.png" />
+    <Content Include="images\icon01.png" />
+    <Content Include="images\icon02.png" />
+    <Content Include="images\icon03.png" />
+    <Content Include="images\icon04.png" />
+    <Content Include="images\icon05.png" />
+    <Content Include="images\icon06.png" />
+    <Content Include="images\icon_03.png" />
+    <Content Include="images\icon_05.png" />
+    <Content Include="images\icon_07.png" />
+    <Content Include="images\icon_09.png" />
+    <Content Include="images\img01.png" />
+    <Content Include="images\img02.png" />
+    <Content Include="images\img03.png" />
+    <Content Include="images\img04.png" />
+    <Content Include="images\img05.png" />
+    <Content Include="images\img06.png" />
+    <Content Include="images\img07.png" />
+    <Content Include="images\img08.png" />
+    <Content Include="images\img09.png" />
+    <Content Include="images\img10.png" />
+    <Content Include="images\img11.png" />
+    <Content Include="images\img12.png" />
+    <Content Include="images\img13.png" />
+    <Content Include="images\img14.png" />
+    <Content Include="images\img15.png" />
+    <Content Include="images\index.jpg" />
+    <Content Include="images\info.gif" />
+    <Content Include="images\inputbg.gif" />
+    <Content Include="images\itabbg.png" />
+    <Content Include="images\itabbg1.png" />
+    <Content Include="images\layout-browser-hd-bg.gif" />
+    <Content Include="images\leftico.png" />
+    <Content Include="images\leftico01.png" />
+    <Content Include="images\leftico02.png" />
+    <Content Include="images\leftico03.png" />
+    <Content Include="images\leftico04.png" />
+    <Content Include="images\leftline.gif" />
+    <Content Include="images\leftmenubg.gif" />
+    <Content Include="images\lefttop.gif" />
+    <Content Include="images\libg.png" />
+    <Content Include="images\light.png" />
+    <Content Include="images\line.gif" />
+    <Content Include="images\line1.png" />
+    <Content Include="images\list.gif" />
+    <Content Include="images\list1.gif" />
+    <Content Include="images\list2.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logBtn_05.png" />
+    <Content Include="images\loginbg1.png" />
+    <Content Include="images\loginbg2.png" />
+    <Content Include="images\loginbg3.png" />
+    <Content Include="images\logininfo.png" />
+    <Content Include="images\loginpassword.png" />
+    <Content Include="images\loginsj.png" />
+    <Content Include="images\loginuser.png" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo1.png" />
+    <Content Include="images\logo2.gif" />
+    <Content Include="images\msg.png" />
+    <Content Include="images\navbg.png" />
+    <Content Include="images\nav_link.png" />
+    <Content Include="images\next.gif" />
+    <Content Include="images\noscript.gif" />
+    <Content Include="images\pd_34.png" />
+    <Content Include="images\pd_54.png" />
+    <Content Include="images\plugin_big.gif" />
+    <Content Include="images\pn.png" />
+    <Content Include="images\pre.gif" />
+    <Content Include="images\px.gif" />
+    <Content Include="images\righttop.gif" />
+    <Content Include="images\rlist.gif" />
+    <Content Include="images\search.png" />
+    <Content Include="images\ShowCustomPropertiesPage.png" />
+    <Content Include="images\sj.png" />
+    <Content Include="images\sun.png" />
+    <Content Include="images\t01.png" />
+    <Content Include="images\t02.png" />
+    <Content Include="images\t03.png" />
+    <Content Include="images\t04.png" />
+    <Content Include="images\t05.png" />
+    <Content Include="images\tabicons.png" />
+    <Content Include="images\TableDrawTable.png" />
+    <Content Include="images\tbg.png" />
+    <Content Include="images\tcbg.gif" />
+    <Content Include="images\th.gif" />
+    <Content Include="images\ticon.png" />
+    <Content Include="images\time.png" />
+    <Content Include="images\toolbg.gif" />
+    <Content Include="images\tools-sprites-trans.gif" />
+    <Content Include="images\topBg.gif" />
+    <Content Include="images\topleft.jpg" />
+    <Content Include="images\topright.jpg" />
+    <Content Include="images\ub1.png" />
+    <Content Include="images\uew_icon.png" />
+    <Content Include="images\uew_icon_hover.png" />
+    <Content Include="images\ulist.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\userbg.png" />
+    <Content Include="img\arrow-ts-hover.png" />
+    <Content Include="img\arrow-ts.png" />
+    <Content Include="img\avatar.png" />
+    <Content Include="img\back-button.png" />
+    <Content Include="img\blue-button.png" />
+    <Content Include="img\bodybg.png" />
+    <Content Include="img\close-icon.png" />
+    <Content Include="img\close-icon2.png" />
+    <Content Include="img\create.png" />
+    <Content Include="img\dto-gray.png" />
+    <Content Include="img\error.png" />
+    <Content Include="img\gra-linear-with-dot.png" />
+    <Content Include="img\gra-linear.png" />
+    <Content Include="img\header-bg.png" />
+    <Content Include="img\header-button.png" />
+    <Content Include="img\icons\alert.png" />
+    <Content Include="img\icons\blocks.png" />
+    <Content Include="img\icons\bubble.png" />
+    <Content Include="img\icons\error.png" />
+    <Content Include="img\icons\error\accept.png" />
+    <Content Include="img\icons\error\cross.png" />
+    <Content Include="img\icons\error\error.png" />
+    <Content Include="img\icons\error\help.png" />
+    <Content Include="img\icons\files.png" />
+    <Content Include="img\icons\graph.png" />
+    <Content Include="img\icons\mini\arrow.png" />
+    <Content Include="img\icons\mini\close-opacity-21.png" />
+    <Content Include="img\icons\mini\close-opacity-42.png" />
+    <Content Include="img\icons\mini\plus.gif" />
+    <Content Include="img\icons\modx.png" />
+    <Content Include="img\icons\page.png" />
+    <Content Include="img\icons\personal-folder.png" />
+    <Content Include="img\icons\photo-gallery.png" />
+    <Content Include="img\input-bg.png" />
+    <Content Include="img\js\cloud.js" />
+    <Content Include="img\js\DD_belatedPNG_0.0.8a-min.js" />
+    <Content Include="img\js\easyloader.js" />
+    <Content Include="img\js\esay.js" />
+    <Content Include="img\js\format+zh_CN,default,corechart.I.js" />
+    <Content Include="img\js\frame.js" />
+    <Content Include="img\js\jquery-1.7.2.min.js" />
+    <Content Include="img\js\jquery.ba-resize.min.js" />
+    <Content Include="img\js\jquery.easyui.min.js" />
+    <Content Include="img\js\jquery.gvChart-1.0.1.min.js" />
+    <Content Include="img\js\jquery.idTabs.min.js" />
+    <Content Include="img\js\jquery.js" />
+    <Content Include="img\js\jquery.min.js" />
+    <Content Include="img\js\jsapi.js" />
+    <Content Include="img\js\locale\easyui-lang-af.js" />
+    <Content Include="img\js\locale\easyui-lang-bg.js" />
+    <Content Include="img\js\locale\easyui-lang-ca.js" />
+    <Content Include="img\js\locale\easyui-lang-cs.js" />
+    <Content Include="img\js\locale\easyui-lang-cz.js" />
+    <Content Include="img\js\locale\easyui-lang-da.js" />
+    <Content Include="img\js\locale\easyui-lang-de.js" />
+    <Content Include="img\js\locale\easyui-lang-en.js" />
+    <Content Include="img\js\locale\easyui-lang-es.js" />
+    <Content Include="img\js\locale\easyui-lang-fr.js" />
+    <Content Include="img\js\locale\easyui-lang-nl.js" />
+    <Content Include="img\js\locale\easyui-lang-tr.js" />
+    <Content Include="img\js\locale\easyui-lang-zh_CN.js" />
+    <Content Include="img\js\locale\easyui-lang-zh_TW.js" />
+    <Content Include="img\js\PIE.htc" />
+    <Content Include="img\js\plugins\jquery.accordion.js" />
+    <Content Include="img\js\plugins\jquery.calendar.js" />
+    <Content Include="img\js\plugins\jquery.combo.js" />
+    <Content Include="img\js\plugins\jquery.combobox.js" />
+    <Content Include="img\js\plugins\jquery.combogrid.js" />
+    <Content Include="img\js\plugins\jquery.combotree.js" />
+    <Content Include="img\js\plugins\jquery.datagrid.js" />
+    <Content Include="img\js\plugins\jquery.datebox.js" />
+    <Content Include="img\js\plugins\jquery.datetimebox.js" />
+    <Content Include="img\js\plugins\jquery.dialog.js" />
+    <Content Include="img\js\plugins\jquery.draggable.js" />
+    <Content Include="img\js\plugins\jquery.droppable.js" />
+    <Content Include="img\js\plugins\jquery.form.js" />
+    <Content Include="img\js\plugins\jquery.layout.js" />
+    <Content Include="img\js\plugins\jquery.linkbutton.js" />
+    <Content Include="img\js\plugins\jquery.menu.js" />
+    <Content Include="img\js\plugins\jquery.menubutton.js" />
+    <Content Include="img\js\plugins\jquery.messager.js" />
+    <Content Include="img\js\plugins\jquery.numberbox.js" />
+    <Content Include="img\js\plugins\jquery.numberspinner.js" />
+    <Content Include="img\js\plugins\jquery.pagination.js" />
+    <Content Include="img\js\plugins\jquery.panel.js" />
+    <Content Include="img\js\plugins\jquery.parser.js" />
+    <Content Include="img\js\plugins\jquery.progressbar.js" />
+    <Content Include="img\js\plugins\jquery.propertygrid.js" />
+    <Content Include="img\js\plugins\jquery.resizable.js" />
+    <Content Include="img\js\plugins\jquery.searchbox.js" />
+    <Content Include="img\js\plugins\jquery.slider.js" />
+    <Content Include="img\js\plugins\jquery.spinner.js" />
+    <Content Include="img\js\plugins\jquery.splitbutton.js" />
+    <Content Include="img\js\plugins\jquery.tabs.js" />
+    <Content Include="img\js\plugins\jquery.timespinner.js" />
+    <Content Include="img\js\plugins\jquery.tree.js" />
+    <Content Include="img\js\plugins\jquery.treegrid.js" />
+    <Content Include="img\js\plugins\jquery.validatebox.js" />
+    <Content Include="img\js\plugins\jquery.window.js" />
+    <Content Include="img\js\select-ui.min.js" />
+    <Content Include="img\js\themes\default\accordion.css" />
+    <Content Include="img\js\themes\default\calendar.css" />
+    <Content Include="img\js\themes\default\combo.css" />
+    <Content Include="img\js\themes\default\combobox.css" />
+    <Content Include="img\js\themes\default\datagrid.css" />
+    <Content Include="img\js\themes\default\datebox.css" />
+    <Content Include="img\js\themes\default\dialog.css" />
+    <Content Include="img\js\themes\default\easyui.css" />
+    <Content Include="img\js\themes\default\images\accordion_collapse.png" />
+    <Content Include="img\js\themes\default\images\accordion_expand.png" />
+    <Content Include="img\js\themes\default\images\blank.gif" />
+    <Content Include="img\js\themes\default\images\button_a_bg.gif" />
+    <Content Include="img\js\themes\default\images\button_plain_hover.png" />
+    <Content Include="img\js\themes\default\images\button_span_bg.gif" />
+    <Content Include="img\js\themes\default\images\calendar_nextmonth.gif" />
+    <Content Include="img\js\themes\default\images\calendar_nextyear.gif" />
+    <Content Include="img\js\themes\default\images\calendar_prevmonth.gif" />
+    <Content Include="img\js\themes\default\images\calendar_prevyear.gif" />
+    <Content Include="img\js\themes\default\images\combo_arrow.gif" />
+    <Content Include="img\js\themes\default\images\datagrid_header_bg.gif" />
+    <Content Include="img\js\themes\default\images\datagrid_row_collapse.gif" />
+    <Content Include="img\js\themes\default\images\datagrid_row_expand.gif" />
+    <Content Include="img\js\themes\default\images\datagrid_sort_asc.gif" />
+    <Content Include="img\js\themes\default\images\datagrid_sort_desc.gif" />
+    <Content Include="img\js\themes\default\images\datagrid_title_bg.png" />
+    <Content Include="img\js\themes\default\images\datebox_arrow.png" />
+    <Content Include="img\js\themes\default\images\layout_button_down.gif" />
+    <Content Include="img\js\themes\default\images\layout_button_left.gif" />
+    <Content Include="img\js\themes\default\images\layout_button_right.gif" />
+    <Content Include="img\js\themes\default\images\layout_button_up.gif" />
+    <Content Include="img\js\themes\default\images\menu.gif" />
+    <Content Include="img\js\themes\default\images\menu_downarrow.png" />
+    <Content Include="img\js\themes\default\images\menu_rightarrow.png" />
+    <Content Include="img\js\themes\default\images\menu_sep.png" />
+    <Content Include="img\js\themes\default\images\menu_split_downarrow.png" />
+    <Content Include="img\js\themes\default\images\messager_error.gif" />
+    <Content Include="img\js\themes\default\images\messager_info.gif" />
+    <Content Include="img\js\themes\default\images\messager_question.gif" />
+    <Content Include="img\js\themes\default\images\messager_warning.gif" />
+    <Content Include="img\js\themes\default\images\pagination_first.gif" />
+    <Content Include="img\js\themes\default\images\pagination_last.gif" />
+    <Content Include="img\js\themes\default\images\pagination_load.png" />
+    <Content Include="img\js\themes\default\images\pagination_loading.gif" />
+    <Content Include="img\js\themes\default\images\pagination_next.gif" />
+    <Content Include="img\js\themes\default\images\pagination_prev.gif" />
+    <Content Include="img\js\themes\default\images\panel_loading.gif" />
+    <Content Include="img\js\themes\default\images\panel_title.png" />
+    <Content Include="img\js\themes\default\images\panel_tools.gif" />
+    <Content Include="img\js\themes\default\images\panel_tool_collapse.gif" />
+    <Content Include="img\js\themes\default\images\panel_tool_expand.gif" />
+    <Content Include="img\js\themes\default\images\searchbox_button.png" />
+    <Content Include="img\js\themes\default\images\slider_handle.png" />
+    <Content Include="img\js\themes\default\images\spinner_arrow_down.gif" />
+    <Content Include="img\js\themes\default\images\spinner_arrow_up.gif" />
+    <Content Include="img\js\themes\default\images\tabs_active.png" />
+    <Content Include="img\js\themes\default\images\tabs_close.gif" />
+    <Content Include="img\js\themes\default\images\tabs_enabled.png" />
+    <Content Include="img\js\themes\default\images\tabs_leftarrow.png" />
+    <Content Include="img\js\themes\default\images\tabs_rightarrow.png" />
+    <Content Include="img\js\themes\default\images\tree_arrows.gif" />
+    <Content Include="img\js\themes\default\images\tree_checkbox_0.gif" />
+    <Content Include="img\js\themes\default\images\tree_checkbox_1.gif" />
+    <Content Include="img\js\themes\default\images\tree_checkbox_2.gif" />
+    <Content Include="img\js\themes\default\images\tree_dnd_no.png" />
+    <Content Include="img\js\themes\default\images\tree_dnd_yes.png" />
+    <Content Include="img\js\themes\default\images\tree_elbow.png" />
+    <Content Include="img\js\themes\default\images\tree_file.gif" />
+    <Content Include="img\js\themes\default\images\tree_folder.gif" />
+    <Content Include="img\js\themes\default\images\tree_folder_open.gif" />
+    <Content Include="img\js\themes\default\images\tree_loading.gif" />
+    <Content Include="img\js\themes\default\images\validatebox_pointer.gif" />
+    <Content Include="img\js\themes\default\images\validatebox_warning.png" />
+    <Content Include="img\js\themes\default\layout.css" />
+    <Content Include="img\js\themes\default\linkbutton.css" />
+    <Content Include="img\js\themes\default\menu.css" />
+    <Content Include="img\js\themes\default\menubutton.css" />
+    <Content Include="img\js\themes\default\messager.css" />
+    <Content Include="img\js\themes\default\pagination.css" />
+    <Content Include="img\js\themes\default\panel.css" />
+    <Content Include="img\js\themes\default\progressbar.css" />
+    <Content Include="img\js\themes\default\propertygrid.css" />
+    <Content Include="img\js\themes\default\searchbox.css" />
+    <Content Include="img\js\themes\default\slider.css" />
+    <Content Include="img\js\themes\default\spinner.css" />
+    <Content Include="img\js\themes\default\splitbutton.css" />
+    <Content Include="img\js\themes\default\tabs.css" />
+    <Content Include="img\js\themes\default\tree.css" />
+    <Content Include="img\js\themes\default\validatebox.css" />
+    <Content Include="img\js\themes\default\window.css" />
+    <Content Include="img\js\themes\gray\accordion.css" />
+    <Content Include="img\js\themes\gray\calendar.css" />
+    <Content Include="img\js\themes\gray\combo.css" />
+    <Content Include="img\js\themes\gray\combobox.css" />
+    <Content Include="img\js\themes\gray\datagrid.css" />
+    <Content Include="img\js\themes\gray\datebox.css" />
+    <Content Include="img\js\themes\gray\dialog.css" />
+    <Content Include="img\js\themes\gray\easyui.css" />
+    <Content Include="img\js\themes\gray\images\accordion_collapse.png" />
+    <Content Include="img\js\themes\gray\images\accordion_expand.png" />
+    <Content Include="img\js\themes\gray\images\blank.gif" />
+    <Content Include="img\js\themes\gray\images\button_a_bg.gif" />
+    <Content Include="img\js\themes\gray\images\button_plain_hover.png" />
+    <Content Include="img\js\themes\gray\images\button_span_bg.gif" />
+    <Content Include="img\js\themes\gray\images\calendar_nextmonth.gif" />
+    <Content Include="img\js\themes\gray\images\calendar_nextyear.gif" />
+    <Content Include="img\js\themes\gray\images\calendar_prevmonth.gif" />
+    <Content Include="img\js\themes\gray\images\calendar_prevyear.gif" />
+    <Content Include="img\js\themes\gray\images\combo_arrow.gif" />
+    <Content Include="img\js\themes\gray\images\datagrid_header_bg.gif" />
+    <Content Include="img\js\themes\gray\images\datagrid_row_collapse.gif" />
+    <Content Include="img\js\themes\gray\images\datagrid_row_expand.gif" />
+    <Content Include="img\js\themes\gray\images\datagrid_sort_asc.gif" />
+    <Content Include="img\js\themes\gray\images\datagrid_sort_desc.gif" />
+    <Content Include="img\js\themes\gray\images\datagrid_title_bg.gif" />
+    <Content Include="img\js\themes\gray\images\datebox_arrow.png" />
+    <Content Include="img\js\themes\gray\images\layout_button_down.gif" />
+    <Content Include="img\js\themes\gray\images\layout_button_left.gif" />
+    <Content Include="img\js\themes\gray\images\layout_button_right.gif" />
+    <Content Include="img\js\themes\gray\images\layout_button_up.gif" />
+    <Content Include="img\js\themes\gray\images\menu.gif" />
+    <Content Include="img\js\themes\gray\images\menu_downarrow.png" />
+    <Content Include="img\js\themes\gray\images\menu_rightarrow.png" />
+    <Content Include="img\js\themes\gray\images\menu_sep.png" />
+    <Content Include="img\js\themes\gray\images\menu_split_downarrow.png" />
+    <Content Include="img\js\themes\gray\images\messager_error.gif" />
+    <Content Include="img\js\themes\gray\images\messager_info.gif" />
+    <Content Include="img\js\themes\gray\images\messager_question.gif" />
+    <Content Include="img\js\themes\gray\images\messager_warning.gif" />
+    <Content Include="img\js\themes\gray\images\pagination_first.gif" />
+    <Content Include="img\js\themes\gray\images\pagination_last.gif" />
+    <Content Include="img\js\themes\gray\images\pagination_load.png" />
+    <Content Include="img\js\themes\gray\images\pagination_loading.gif" />
+    <Content Include="img\js\themes\gray\images\pagination_next.gif" />
+    <Content Include="img\js\themes\gray\images\pagination_prev.gif" />
+    <Content Include="img\js\themes\gray\images\panel_loading.gif" />
+    <Content Include="img\js\themes\gray\images\panel_title.gif" />
+    <Content Include="img\js\themes\gray\images\panel_tools.gif" />
+    <Content Include="img\js\themes\gray\images\panel_tool_collapse.gif" />
+    <Content Include="img\js\themes\gray\images\panel_tool_expand.gif" />
+    <Content Include="img\js\themes\gray\images\searchbox_button.png" />
+    <Content Include="img\js\themes\gray\images\slider_handle.png" />
+    <Content Include="img\js\themes\gray\images\spinner_arrow_down.gif" />
+    <Content Include="img\js\themes\gray\images\spinner_arrow_up.gif" />
+    <Content Include="img\js\themes\gray\images\tabs_close.gif" />
+    <Content Include="img\js\themes\gray\images\tabs_enabled.gif" />
+    <Content Include="img\js\themes\gray\images\tabs_leftarrow.png" />
+    <Content Include="img\js\themes\gray\images\tabs_rightarrow.png" />
+    <Content Include="img\js\themes\gray\images\tree_arrows.gif" />
+    <Content Include="img\js\themes\gray\images\tree_checkbox_0.gif" />
+    <Content Include="img\js\themes\gray\images\tree_checkbox_1.gif" />
+    <Content Include="img\js\themes\gray\images\tree_checkbox_2.gif" />
+    <Content Include="img\js\themes\gray\images\tree_dnd_no.png" />
+    <Content Include="img\js\themes\gray\images\tree_dnd_yes.png" />
+    <Content Include="img\js\themes\gray\images\tree_elbow.png" />
+    <Content Include="img\js\themes\gray\images\tree_file.gif" />
+    <Content Include="img\js\themes\gray\images\tree_folder.gif" />
+    <Content Include="img\js\themes\gray\images\tree_folder_open.gif" />
+    <Content Include="img\js\themes\gray\images\tree_loading.gif" />
+    <Content Include="img\js\themes\gray\images\validatebox_pointer.gif" />
+    <Content Include="img\js\themes\gray\images\validatebox_warning.png" />
+    <Content Include="img\js\themes\gray\layout.css" />
+    <Content Include="img\js\themes\gray\linkbutton.css" />
+    <Content Include="img\js\themes\gray\menu.css" />
+    <Content Include="img\js\themes\gray\menubutton.css" />
+    <Content Include="img\js\themes\gray\messager.css" />
+    <Content Include="img\js\themes\gray\pagination.css" />
+    <Content Include="img\js\themes\gray\panel.css" />
+    <Content Include="img\js\themes\gray\progressbar.css" />
+    <Content Include="img\js\themes\gray\propertygrid.css" />
+    <Content Include="img\js\themes\gray\searchbox.css" />
+    <Content Include="img\js\themes\gray\slider.css" />
+    <Content Include="img\js\themes\gray\spinner.css" />
+    <Content Include="img\js\themes\gray\splitbutton.css" />
+    <Content Include="img\js\themes\gray\tabs.css" />
+    <Content Include="img\js\themes\gray\tree.css" />
+    <Content Include="img\js\themes\gray\validatebox.css" />
+    <Content Include="img\js\themes\gray\window.css" />
+    <Content Include="img\js\themes\icon.css" />
+    <Content Include="img\js\themes\icons\back.png" />
+    <Content Include="img\js\themes\icons\blank.gif" />
+    <Content Include="img\js\themes\icons\cancel.png" />
+    <Content Include="img\js\themes\icons\cut.png" />
+    <Content Include="img\js\themes\icons\edit_add.png" />
+    <Content Include="img\js\themes\icons\edit_remove.png" />
+    <Content Include="img\js\themes\icons\filesave.png" />
+    <Content Include="img\js\themes\icons\help.png" />
+    <Content Include="img\js\themes\icons\mini_add.png" />
+    <Content Include="img\js\themes\icons\mini_edit.png" />
+    <Content Include="img\js\themes\icons\mini_refresh.png" />
+    <Content Include="img\js\themes\icons\no.png" />
+    <Content Include="img\js\themes\icons\ok.png" />
+    <Content Include="img\js\themes\icons\pencil.png" />
+    <Content Include="img\js\themes\icons\print.png" />
+    <Content Include="img\js\themes\icons\redo.png" />
+    <Content Include="img\js\themes\icons\reload.png" />
+    <Content Include="img\js\themes\icons\search.png" />
+    <Content Include="img\js\themes\icons\sum.png" />
+    <Content Include="img\js\themes\icons\tip.png" />
+    <Content Include="img\js\themes\icons\undo.png" />
+    <Content Include="img\js\toogle.js" />
+    <Content Include="img\menu-hover.png" />
+    <Content Include="img\page-top.png" />
+    <Content Include="img\photo\1.jpg" />
+    <Content Include="img\photo\2.jpg" />
+    <Content Include="img\photo\3.jpg" />
+    <Content Include="img\photo\4.jpg" />
+    <Content Include="img\photo\5.jpg" />
+    <Content Include="img\photo\6.jpg" />
+    <Content Include="img\search-blue.png" />
+    <Content Include="img\search.png" />
+    <Content Include="img\style\reset.css" />
+    <Content Include="img\style\root.css" />
+    <Content Include="js\cloud.js" />
+    <Content Include="js\DD_belatedPNG_0.0.8a-min.js" />
+    <Content Include="js\easyloader.js" />
+    <Content Include="js\esay.js" />
+    <Content Include="js\format+zh_CN,default,corechart.I.js" />
+    <Content Include="js\frame.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery.ba-resize.min.js" />
+    <Content Include="js\jquery.easyui.min.js" />
+    <Content Include="js\jquery.gvChart-1.0.1.min.js" />
+    <Content Include="js\jquery.idTabs.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jsapi.js" />
+    <Content Include="js\locale\easyui-lang-af.js" />
+    <Content Include="js\locale\easyui-lang-bg.js" />
+    <Content Include="js\locale\easyui-lang-ca.js" />
+    <Content Include="js\locale\easyui-lang-cs.js" />
+    <Content Include="js\locale\easyui-lang-cz.js" />
+    <Content Include="js\locale\easyui-lang-da.js" />
+    <Content Include="js\locale\easyui-lang-de.js" />
+    <Content Include="js\locale\easyui-lang-en.js" />
+    <Content Include="js\locale\easyui-lang-es.js" />
+    <Content Include="js\locale\easyui-lang-fr.js" />
+    <Content Include="js\locale\easyui-lang-nl.js" />
+    <Content Include="js\locale\easyui-lang-tr.js" />
+    <Content Include="js\locale\easyui-lang-zh_CN.js" />
+    <Content Include="js\locale\easyui-lang-zh_TW.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\plugins\jquery.accordion.js" />
+    <Content Include="js\plugins\jquery.calendar.js" />
+    <Content Include="js\plugins\jquery.combo.js" />
+    <Content Include="js\plugins\jquery.combobox.js" />
+    <Content Include="js\plugins\jquery.combogrid.js" />
+    <Content Include="js\plugins\jquery.combotree.js" />
+    <Content Include="js\plugins\jquery.datagrid.js" />
+    <Content Include="js\plugins\jquery.datebox.js" />
+    <Content Include="js\plugins\jquery.datetimebox.js" />
+    <Content Include="js\plugins\jquery.dialog.js" />
+    <Content Include="js\plugins\jquery.draggable.js" />
+    <Content Include="js\plugins\jquery.droppable.js" />
+    <Content Include="js\plugins\jquery.form.js" />
+    <Content Include="js\plugins\jquery.layout.js" />
+    <Content Include="js\plugins\jquery.linkbutton.js" />
+    <Content Include="js\plugins\jquery.menu.js" />
+    <Content Include="js\plugins\jquery.menubutton.js" />
+    <Content Include="js\plugins\jquery.messager.js" />
+    <Content Include="js\plugins\jquery.numberbox.js" />
+    <Content Include="js\plugins\jquery.numberspinner.js" />
+    <Content Include="js\plugins\jquery.pagination.js" />
+    <Content Include="js\plugins\jquery.panel.js" />
+    <Content Include="js\plugins\jquery.parser.js" />
+    <Content Include="js\plugins\jquery.progressbar.js" />
+    <Content Include="js\plugins\jquery.propertygrid.js" />
+    <Content Include="js\plugins\jquery.resizable.js" />
+    <Content Include="js\plugins\jquery.searchbox.js" />
+    <Content Include="js\plugins\jquery.slider.js" />
+    <Content Include="js\plugins\jquery.spinner.js" />
+    <Content Include="js\plugins\jquery.splitbutton.js" />
+    <Content Include="js\plugins\jquery.tabs.js" />
+    <Content Include="js\plugins\jquery.timespinner.js" />
+    <Content Include="js\plugins\jquery.tree.js" />
+    <Content Include="js\plugins\jquery.treegrid.js" />
+    <Content Include="js\plugins\jquery.validatebox.js" />
+    <Content Include="js\plugins\jquery.window.js" />
+    <Content Include="js\select-ui.min.js" />
+    <Content Include="js\themes\default\accordion.css" />
+    <Content Include="js\themes\default\calendar.css" />
+    <Content Include="js\themes\default\combo.css" />
+    <Content Include="js\themes\default\combobox.css" />
+    <Content Include="js\themes\default\datagrid.css" />
+    <Content Include="js\themes\default\datebox.css" />
+    <Content Include="js\themes\default\dialog.css" />
+    <Content Include="js\themes\default\easyui.css" />
+    <Content Include="js\themes\default\images\accordion_collapse.png" />
+    <Content Include="js\themes\default\images\accordion_expand.png" />
+    <Content Include="js\themes\default\images\blank.gif" />
+    <Content Include="js\themes\default\images\button_a_bg.gif" />
+    <Content Include="js\themes\default\images\button_plain_hover.png" />
+    <Content Include="js\themes\default\images\button_span_bg.gif" />
+    <Content Include="js\themes\default\images\calendar_nextmonth.gif" />
+    <Content Include="js\themes\default\images\calendar_nextyear.gif" />
+    <Content Include="js\themes\default\images\calendar_prevmonth.gif" />
+    <Content Include="js\themes\default\images\calendar_prevyear.gif" />
+    <Content Include="js\themes\default\images\combo_arrow.gif" />
+    <Content Include="js\themes\default\images\datagrid_header_bg.gif" />
+    <Content Include="js\themes\default\images\datagrid_row_collapse.gif" />
+    <Content Include="js\themes\default\images\datagrid_row_expand.gif" />
+    <Content Include="js\themes\default\images\datagrid_sort_asc.gif" />
+    <Content Include="js\themes\default\images\datagrid_sort_desc.gif" />
+    <Content Include="js\themes\default\images\datagrid_title_bg.png" />
+    <Content Include="js\themes\default\images\datebox_arrow.png" />
+    <Content Include="js\themes\default\images\layout_button_down.gif" />
+    <Content Include="js\themes\default\images\layout_button_left.gif" />
+    <Content Include="js\themes\default\images\layout_button_right.gif" />
+    <Content Include="js\themes\default\images\layout_button_up.gif" />
+    <Content Include="js\themes\default\images\menu.gif" />
+    <Content Include="js\themes\default\images\menu_downarrow.png" />
+    <Content Include="js\themes\default\images\menu_rightarrow.png" />
+    <Content Include="js\themes\default\images\menu_sep.png" />
+    <Content Include="js\themes\default\images\menu_split_downarrow.png" />
+    <Content Include="js\themes\default\images\messager_error.gif" />
+    <Content Include="js\themes\default\images\messager_info.gif" />
+    <Content Include="js\themes\default\images\messager_question.gif" />
+    <Content Include="js\themes\default\images\messager_warning.gif" />
+    <Content Include="js\themes\default\images\pagination_first.gif" />
+    <Content Include="js\themes\default\images\pagination_last.gif" />
+    <Content Include="js\themes\default\images\pagination_load.png" />
+    <Content Include="js\themes\default\images\pagination_loading.gif" />
+    <Content Include="js\themes\default\images\pagination_next.gif" />
+    <Content Include="js\themes\default\images\pagination_prev.gif" />
+    <Content Include="js\themes\default\images\panel_loading.gif" />
+    <Content Include="js\themes\default\images\panel_title.png" />
+    <Content Include="js\themes\default\images\panel_tools.gif" />
+    <Content Include="js\themes\default\images\panel_tool_collapse.gif" />
+    <Content Include="js\themes\default\images\panel_tool_expand.gif" />
+    <Content Include="js\themes\default\images\searchbox_button.png" />
+    <Content Include="js\themes\default\images\slider_handle.png" />
+    <Content Include="js\themes\default\images\spinner_arrow_down.gif" />
+    <Content Include="js\themes\default\images\spinner_arrow_up.gif" />
+    <Content Include="js\themes\default\images\tabs_active.png" />
+    <Content Include="js\themes\default\images\tabs_close.gif" />
+    <Content Include="js\themes\default\images\tabs_enabled.png" />
+    <Content Include="js\themes\default\images\tabs_leftarrow.png" />
+    <Content Include="js\themes\default\images\tabs_rightarrow.png" />
+    <Content Include="js\themes\default\images\tree_arrows.gif" />
+    <Content Include="js\themes\default\images\tree_checkbox_0.gif" />
+    <Content Include="js\themes\default\images\tree_checkbox_1.gif" />
+    <Content Include="js\themes\default\images\tree_checkbox_2.gif" />
+    <Content Include="js\themes\default\images\tree_dnd_no.png" />
+    <Content Include="js\themes\default\images\tree_dnd_yes.png" />
+    <Content Include="js\themes\default\images\tree_elbow.png" />
+    <Content Include="js\themes\default\images\tree_file.gif" />
+    <Content Include="js\themes\default\images\tree_folder.gif" />
+    <Content Include="js\themes\default\images\tree_folder_open.gif" />
+    <Content Include="js\themes\default\images\tree_loading.gif" />
+    <Content Include="js\themes\default\images\validatebox_pointer.gif" />
+    <Content Include="js\themes\default\images\validatebox_warning.png" />
+    <Content Include="js\themes\default\layout.css" />
+    <Content Include="js\themes\default\linkbutton.css" />
+    <Content Include="js\themes\default\menu.css" />
+    <Content Include="js\themes\default\menubutton.css" />
+    <Content Include="js\themes\default\messager.css" />
+    <Content Include="js\themes\default\pagination.css" />
+    <Content Include="js\themes\default\panel.css" />
+    <Content Include="js\themes\default\progressbar.css" />
+    <Content Include="js\themes\default\propertygrid.css" />
+    <Content Include="js\themes\default\searchbox.css" />
+    <Content Include="js\themes\default\slider.css" />
+    <Content Include="js\themes\default\spinner.css" />
+    <Content Include="js\themes\default\splitbutton.css" />
+    <Content Include="js\themes\default\tabs.css" />
+    <Content Include="js\themes\default\tree.css" />
+    <Content Include="js\themes\default\validatebox.css" />
+    <Content Include="js\themes\default\window.css" />
+    <Content Include="js\themes\gray\accordion.css" />
+    <Content Include="js\themes\gray\calendar.css" />
+    <Content Include="js\themes\gray\combo.css" />
+    <Content Include="js\themes\gray\combobox.css" />
+    <Content Include="js\themes\gray\datagrid.css" />
+    <Content Include="js\themes\gray\datebox.css" />
+    <Content Include="js\themes\gray\dialog.css" />
+    <Content Include="js\themes\gray\easyui.css" />
+    <Content Include="js\themes\gray\images\accordion_collapse.png" />
+    <Content Include="js\themes\gray\images\accordion_expand.png" />
+    <Content Include="js\themes\gray\images\blank.gif" />
+    <Content Include="js\themes\gray\images\button_a_bg.gif" />
+    <Content Include="js\themes\gray\images\button_plain_hover.png" />
+    <Content Include="js\themes\gray\images\button_span_bg.gif" />
+    <Content Include="js\themes\gray\images\calendar_nextmonth.gif" />
+    <Content Include="js\themes\gray\images\calendar_nextyear.gif" />
+    <Content Include="js\themes\gray\images\calendar_prevmonth.gif" />
+    <Content Include="js\themes\gray\images\calendar_prevyear.gif" />
+    <Content Include="js\themes\gray\images\combo_arrow.gif" />
+    <Content Include="js\themes\gray\images\datagrid_header_bg.gif" />
+    <Content Include="js\themes\gray\images\datagrid_row_collapse.gif" />
+    <Content Include="js\themes\gray\images\datagrid_row_expand.gif" />
+    <Content Include="js\themes\gray\images\datagrid_sort_asc.gif" />
+    <Content Include="js\themes\gray\images\datagrid_sort_desc.gif" />
+    <Content Include="js\themes\gray\images\datagrid_title_bg.gif" />
+    <Content Include="js\themes\gray\images\datebox_arrow.png" />
+    <Content Include="js\themes\gray\images\layout_button_down.gif" />
+    <Content Include="js\themes\gray\images\layout_button_left.gif" />
+    <Content Include="js\themes\gray\images\layout_button_right.gif" />
+    <Content Include="js\themes\gray\images\layout_button_up.gif" />
+    <Content Include="js\themes\gray\images\menu.gif" />
+    <Content Include="js\themes\gray\images\menu_downarrow.png" />
+    <Content Include="js\themes\gray\images\menu_rightarrow.png" />
+    <Content Include="js\themes\gray\images\menu_sep.png" />
+    <Content Include="js\themes\gray\images\menu_split_downarrow.png" />
+    <Content Include="js\themes\gray\images\messager_error.gif" />
+    <Content Include="js\themes\gray\images\messager_info.gif" />
+    <Content Include="js\themes\gray\images\messager_question.gif" />
+    <Content Include="js\themes\gray\images\messager_warning.gif" />
+    <Content Include="js\themes\gray\images\pagination_first.gif" />
+    <Content Include="js\themes\gray\images\pagination_last.gif" />
+    <Content Include="js\themes\gray\images\pagination_load.png" />
+    <Content Include="js\themes\gray\images\pagination_loading.gif" />
+    <Content Include="js\themes\gray\images\pagination_next.gif" />
+    <Content Include="js\themes\gray\images\pagination_prev.gif" />
+    <Content Include="js\themes\gray\images\panel_loading.gif" />
+    <Content Include="js\themes\gray\images\panel_title.gif" />
+    <Content Include="js\themes\gray\images\panel_tools.gif" />
+    <Content Include="js\themes\gray\images\panel_tool_collapse.gif" />
+    <Content Include="js\themes\gray\images\panel_tool_expand.gif" />
+    <Content Include="js\themes\gray\images\searchbox_button.png" />
+    <Content Include="js\themes\gray\images\slider_handle.png" />
+    <Content Include="js\themes\gray\images\spinner_arrow_down.gif" />
+    <Content Include="js\themes\gray\images\spinner_arrow_up.gif" />
+    <Content Include="js\themes\gray\images\tabs_close.gif" />
+    <Content Include="js\themes\gray\images\tabs_enabled.gif" />
+    <Content Include="js\themes\gray\images\tabs_leftarrow.png" />
+    <Content Include="js\themes\gray\images\tabs_rightarrow.png" />
+    <Content Include="js\themes\gray\images\tree_arrows.gif" />
+    <Content Include="js\themes\gray\images\tree_checkbox_0.gif" />
+    <Content Include="js\themes\gray\images\tree_checkbox_1.gif" />
+    <Content Include="js\themes\gray\images\tree_checkbox_2.gif" />
+    <Content Include="js\themes\gray\images\tree_dnd_no.png" />
+    <Content Include="js\themes\gray\images\tree_dnd_yes.png" />
+    <Content Include="js\themes\gray\images\tree_elbow.png" />
+    <Content Include="js\themes\gray\images\tree_file.gif" />
+    <Content Include="js\themes\gray\images\tree_folder.gif" />
+    <Content Include="js\themes\gray\images\tree_folder_open.gif" />
+    <Content Include="js\themes\gray\images\tree_loading.gif" />
+    <Content Include="js\themes\gray\images\validatebox_pointer.gif" />
+    <Content Include="js\themes\gray\images\validatebox_warning.png" />
+    <Content Include="js\themes\gray\layout.css" />
+    <Content Include="js\themes\gray\linkbutton.css" />
+    <Content Include="js\themes\gray\menu.css" />
+    <Content Include="js\themes\gray\menubutton.css" />
+    <Content Include="js\themes\gray\messager.css" />
+    <Content Include="js\themes\gray\pagination.css" />
+    <Content Include="js\themes\gray\panel.css" />
+    <Content Include="js\themes\gray\progressbar.css" />
+    <Content Include="js\themes\gray\propertygrid.css" />
+    <Content Include="js\themes\gray\searchbox.css" />
+    <Content Include="js\themes\gray\slider.css" />
+    <Content Include="js\themes\gray\spinner.css" />
+    <Content Include="js\themes\gray\splitbutton.css" />
+    <Content Include="js\themes\gray\tabs.css" />
+    <Content Include="js\themes\gray\tree.css" />
+    <Content Include="js\themes\gray\validatebox.css" />
+    <Content Include="js\themes\gray\window.css" />
+    <Content Include="js\themes\icon.css" />
+    <Content Include="js\themes\icons\back.png" />
+    <Content Include="js\themes\icons\blank.gif" />
+    <Content Include="js\themes\icons\cancel.png" />
+    <Content Include="js\themes\icons\cut.png" />
+    <Content Include="js\themes\icons\edit_add.png" />
+    <Content Include="js\themes\icons\edit_remove.png" />
+    <Content Include="js\themes\icons\filesave.png" />
+    <Content Include="js\themes\icons\help.png" />
+    <Content Include="js\themes\icons\mini_add.png" />
+    <Content Include="js\themes\icons\mini_edit.png" />
+    <Content Include="js\themes\icons\mini_refresh.png" />
+    <Content Include="js\themes\icons\no.png" />
+    <Content Include="js\themes\icons\ok.png" />
+    <Content Include="js\themes\icons\pencil.png" />
+    <Content Include="js\themes\icons\print.png" />
+    <Content Include="js\themes\icons\redo.png" />
+    <Content Include="js\themes\icons\reload.png" />
+    <Content Include="js\themes\icons\search.png" />
+    <Content Include="js\themes\icons\sum.png" />
+    <Content Include="js\themes\icons\tip.png" />
+    <Content Include="js\themes\icons\undo.png" />
+    <Content Include="js\toogle.js" />
+    <Content Include="login.aspx" />
+    <Content Include="My97DatePicker\calendar.js" />
+    <Content Include="My97DatePicker\config.js" />
+    <Content Include="My97DatePicker\lang\en.js" />
+    <Content Include="My97DatePicker\lang\zh-cn.js" />
+    <Content Include="My97DatePicker\lang\zh-tw.js" />
+    <Content Include="My97DatePicker\My97DatePicker.htm" />
+    <Content Include="My97DatePicker\My97DatePicker\calendar.js" />
+    <Content Include="My97DatePicker\My97DatePicker\config.js" />
+    <Content Include="My97DatePicker\My97DatePicker\lang\en.js" />
+    <Content Include="My97DatePicker\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="My97DatePicker\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="My97DatePicker\My97DatePicker\My97DatePicker.htm" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\default\img.gif" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="My97DatePicker\My97DatePicker\WdatePicker.js" />
+    <Content Include="My97DatePicker\skin\datePicker.gif" />
+    <Content Include="My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="My97DatePicker\skin\default\img.gif" />
+    <Content Include="My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="My97DatePicker\WdatePicker.js" />
+    <Content Include="style\reset.css" />
+    <Content Include="style\root.css" />
+    <Content Include="Uploadify\browse.jpg" />
+    <Content Include="Uploadify\cancel.png" />
+    <Content Include="Uploadify\expressInstall.swf" />
+    <Content Include="Uploadify\jquery-1.4.2.min.js" />
+    <Content Include="Uploadify\jquery.uploadify.v2.1.4.js" />
+    <Content Include="Uploadify\jquery.uploadify.v2.1.4.min.js" />
+    <Content Include="Uploadify\swfobject.js" />
+    <Content Include="Uploadify\uploadify.allglyphs.swf" />
+    <Content Include="Uploadify\uploadify.css" />
+    <Content Include="Uploadify\uploadify.swf" />
+    <Content Include="uploads\s.JPG" />
+    <Content Include="upload\20130410\20130410135529_4850.gif" />
+    <Content Include="upload\20130410\20130410153645_5875.gif" />
+    <Content Include="upload\20130415\20130415203424_6322.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="kindeditor\kindeditor-min.js" />
+    <Content Include="kindeditor\kindeditor.js" />
+    <Content Include="kindeditor\plugins\about.html" />
+    <Content Include="kindeditor\plugins\advtable\advtable.html" />
+    <Content Include="kindeditor\plugins\advtable\cell.html" />
+    <Content Include="kindeditor\plugins\emoticons\0.gif" />
+    <Content Include="kindeditor\plugins\emoticons\1.gif" />
+    <Content Include="kindeditor\plugins\emoticons\10.gif" />
+    <Content Include="kindeditor\plugins\emoticons\100.gif" />
+    <Content Include="kindeditor\plugins\emoticons\101.gif" />
+    <Content Include="kindeditor\plugins\emoticons\102.gif" />
+    <Content Include="kindeditor\plugins\emoticons\103.gif" />
+    <Content Include="kindeditor\plugins\emoticons\104.gif" />
+    <Content Include="kindeditor\plugins\emoticons\105.gif" />
+    <Content Include="kindeditor\plugins\emoticons\106.gif" />
+    <Content Include="kindeditor\plugins\emoticons\107.gif" />
+    <Content Include="kindeditor\plugins\emoticons\108.gif" />
+    <Content Include="kindeditor\plugins\emoticons\109.gif" />
+    <Content Include="kindeditor\plugins\emoticons\11.gif" />
+    <Content Include="kindeditor\plugins\emoticons\110.gif" />
+    <Content Include="kindeditor\plugins\emoticons\111.gif" />
+    <Content Include="kindeditor\plugins\emoticons\112.gif" />
+    <Content Include="kindeditor\plugins\emoticons\113.gif" />
+    <Content Include="kindeditor\plugins\emoticons\114.gif" />
+    <Content Include="kindeditor\plugins\emoticons\115.gif" />
+    <Content Include="kindeditor\plugins\emoticons\116.gif" />
+    <Content Include="kindeditor\plugins\emoticons\117.gif" />
+    <Content Include="kindeditor\plugins\emoticons\118.gif" />
+    <Content Include="kindeditor\plugins\emoticons\119.gif" />
+    <Content Include="kindeditor\plugins\emoticons\12.gif" />
+    <Content Include="kindeditor\plugins\emoticons\120.gif" />
+    <Content Include="kindeditor\plugins\emoticons\121.gif" />
+    <Content Include="kindeditor\plugins\emoticons\122.gif" />
+    <Content Include="kindeditor\plugins\emoticons\123.gif" />
+    <Content Include="kindeditor\plugins\emoticons\124.gif" />
+    <Content Include="kindeditor\plugins\emoticons\125.gif" />
+    <Content Include="kindeditor\plugins\emoticons\126.gif" />
+    <Content Include="kindeditor\plugins\emoticons\127.gif" />
+    <Content Include="kindeditor\plugins\emoticons\128.gif" />
+    <Content Include="kindeditor\plugins\emoticons\129.gif" />
+    <Content Include="kindeditor\plugins\emoticons\13.gif" />
+    <Content Include="kindeditor\plugins\emoticons\130.gif" />
+    <Content Include="kindeditor\plugins\emoticons\131.gif" />
+    <Content Include="kindeditor\plugins\emoticons\132.gif" />
+    <Content Include="kindeditor\plugins\emoticons\133.gif" />
+    <Content Include="kindeditor\plugins\emoticons\134.gif" />
+    <Content Include="kindeditor\plugins\emoticons\14.gif" />
+    <Content Include="kindeditor\plugins\emoticons\15.gif" />
+    <Content Include="kindeditor\plugins\emoticons\16.gif" />
+    <Content Include="kindeditor\plugins\emoticons\17.gif" />
+    <Content Include="kindeditor\plugins\emoticons\18.gif" />
+    <Content Include="kindeditor\plugins\emoticons\19.gif" />
+    <Content Include="kindeditor\plugins\emoticons\2.gif" />
+    <Content Include="kindeditor\plugins\emoticons\20.gif" />
+    <Content Include="kindeditor\plugins\emoticons\21.gif" />
+    <Content Include="kindeditor\plugins\emoticons\22.gif" />
+    <Content Include="kindeditor\plugins\emoticons\23.gif" />
+    <Content Include="kindeditor\plugins\emoticons\24.gif" />
+    <Content Include="kindeditor\plugins\emoticons\25.gif" />
+    <Content Include="kindeditor\plugins\emoticons\26.gif" />
+    <Content Include="kindeditor\plugins\emoticons\27.gif" />
+    <Content Include="kindeditor\plugins\emoticons\28.gif" />
+    <Content Include="kindeditor\plugins\emoticons\29.gif" />
+    <Content Include="kindeditor\plugins\emoticons\3.gif" />
+    <Content Include="kindeditor\plugins\emoticons\30.gif" />
+    <Content Include="kindeditor\plugins\emoticons\31.gif" />
+    <Content Include="kindeditor\plugins\emoticons\32.gif" />
+    <Content Include="kindeditor\plugins\emoticons\33.gif" />
+    <Content Include="kindeditor\plugins\emoticons\34.gif" />
+    <Content Include="kindeditor\plugins\emoticons\35.gif" />
+    <Content Include="kindeditor\plugins\emoticons\36.gif" />
+    <Content Include="kindeditor\plugins\emoticons\37.gif" />
+    <Content Include="kindeditor\plugins\emoticons\38.gif" />
+    <Content Include="kindeditor\plugins\emoticons\39.gif" />
+    <Content Include="kindeditor\plugins\emoticons\4.gif" />
+    <Content Include="kindeditor\plugins\emoticons\40.gif" />
+    <Content Include="kindeditor\plugins\emoticons\41.gif" />
+    <Content Include="kindeditor\plugins\emoticons\42.gif" />
+    <Content Include="kindeditor\plugins\emoticons\43.gif" />
+    <Content Include="kindeditor\plugins\emoticons\44.gif" />
+    <Content Include="kindeditor\plugins\emoticons\45.gif" />
+    <Content Include="kindeditor\plugins\emoticons\46.gif" />
+    <Content Include="kindeditor\plugins\emoticons\47.gif" />
+    <Content Include="kindeditor\plugins\emoticons\48.gif" />
+    <Content Include="kindeditor\plugins\emoticons\49.gif" />
+    <Content Include="kindeditor\plugins\emoticons\5.gif" />
+    <Content Include="kindeditor\plugins\emoticons\50.gif" />
+    <Content Include="kindeditor\plugins\emoticons\51.gif" />
+    <Content Include="kindeditor\plugins\emoticons\52.gif" />
+    <Content Include="kindeditor\plugins\emoticons\53.gif" />
+    <Content Include="kindeditor\plugins\emoticons\54.gif" />
+    <Content Include="kindeditor\plugins\emoticons\55.gif" />
+    <Content Include="kindeditor\plugins\emoticons\56.gif" />
+    <Content Include="kindeditor\plugins\emoticons\57.gif" />
+    <Content Include="kindeditor\plugins\emoticons\58.gif" />
+    <Content Include="kindeditor\plugins\emoticons\59.gif" />
+    <Content Include="kindeditor\plugins\emoticons\6.gif" />
+    <Content Include="kindeditor\plugins\emoticons\60.gif" />
+    <Content Include="kindeditor\plugins\emoticons\61.gif" />
+    <Content Include="kindeditor\plugins\emoticons\62.gif" />
+    <Content Include="kindeditor\plugins\emoticons\63.gif" />
+    <Content Include="kindeditor\plugins\emoticons\64.gif" />
+    <Content Include="kindeditor\plugins\emoticons\65.gif" />
+    <Content Include="kindeditor\plugins\emoticons\66.gif" />
+    <Content Include="kindeditor\plugins\emoticons\67.gif" />
+    <Content Include="kindeditor\plugins\emoticons\68.gif" />
+    <Content Include="kindeditor\plugins\emoticons\69.gif" />
+    <Content Include="kindeditor\plugins\emoticons\7.gif" />
+    <Content Include="kindeditor\plugins\emoticons\70.gif" />
+    <Content Include="kindeditor\plugins\emoticons\71.gif" />
+    <Content Include="kindeditor\plugins\emoticons\72.gif" />
+    <Content Include="kindeditor\plugins\emoticons\73.gif" />
+    <Content Include="kindeditor\plugins\emoticons\74.gif" />
+    <Content Include="kindeditor\plugins\emoticons\75.gif" />
+    <Content Include="kindeditor\plugins\emoticons\76.gif" />
+    <Content Include="kindeditor\plugins\emoticons\77.gif" />
+    <Content Include="kindeditor\plugins\emoticons\78.gif" />
+    <Content Include="kindeditor\plugins\emoticons\79.gif" />
+    <Content Include="kindeditor\plugins\emoticons\8.gif" />
+    <Content Include="kindeditor\plugins\emoticons\80.gif" />
+    <Content Include="kindeditor\plugins\emoticons\81.gif" />
+    <Content Include="kindeditor\plugins\emoticons\82.gif" />
+    <Content Include="kindeditor\plugins\emoticons\83.gif" />
+    <Content Include="kindeditor\plugins\emoticons\84.gif" />
+    <Content Include="kindeditor\plugins\emoticons\85.gif" />
+    <Content Include="kindeditor\plugins\emoticons\86.gif" />
+    <Content Include="kindeditor\plugins\emoticons\87.gif" />
+    <Content Include="kindeditor\plugins\emoticons\88.gif" />
+    <Content Include="kindeditor\plugins\emoticons\89.gif" />
+    <Content Include="kindeditor\plugins\emoticons\9.gif" />
+    <Content Include="kindeditor\plugins\emoticons\90.gif" />
+    <Content Include="kindeditor\plugins\emoticons\91.gif" />
+    <Content Include="kindeditor\plugins\emoticons\92.gif" />
+    <Content Include="kindeditor\plugins\emoticons\93.gif" />
+    <Content Include="kindeditor\plugins\emoticons\94.gif" />
+    <Content Include="kindeditor\plugins\emoticons\95.gif" />
+    <Content Include="kindeditor\plugins\emoticons\96.gif" />
+    <Content Include="kindeditor\plugins\emoticons\97.gif" />
+    <Content Include="kindeditor\plugins\emoticons\98.gif" />
+    <Content Include="kindeditor\plugins\emoticons\99.gif" />
+    <Content Include="kindeditor\plugins\emoticons\qq.gif" />
+    <Content Include="kindeditor\plugins\file_manager\file_manager.css" />
+    <Content Include="kindeditor\plugins\file_manager\file_manager.html" />
+    <Content Include="kindeditor\plugins\file_manager\file_manager.js" />
+    <Content Include="kindeditor\plugins\file_manager\images\file-16.gif" />
+    <Content Include="kindeditor\plugins\file_manager\images\file-64.gif" />
+    <Content Include="kindeditor\plugins\file_manager\images\folder-16.gif" />
+    <Content Include="kindeditor\plugins\file_manager\images\folder-64.gif" />
+    <Content Include="kindeditor\plugins\file_manager\images\go-up.gif" />
+    <Content Include="kindeditor\plugins\flash.html" />
+    <Content Include="kindeditor\plugins\image\image.html" />
+    <Content Include="kindeditor\plugins\image\images\align_left.gif" />
+    <Content Include="kindeditor\plugins\image\images\align_right.gif" />
+    <Content Include="kindeditor\plugins\image\images\align_top.gif" />
+    <Content Include="kindeditor\plugins\image\images\refresh.gif" />
+    <Content Include="kindeditor\plugins\link\link.html" />
+    <Content Include="kindeditor\plugins\media.html" />
+    <Content Include="kindeditor\plugins\plainpaste.html" />
+    <Content Include="kindeditor\plugins\wordpaste.html" />
+    <Content Include="kindeditor\skins\common\blank.gif" />
+    <Content Include="kindeditor\skins\common\editor.css" />
+    <Content Include="kindeditor\skins\common\flash.gif" />
+    <Content Include="kindeditor\skins\common\loading.gif" />
+    <Content Include="kindeditor\skins\common\media.gif" />
+    <Content Include="kindeditor\skins\common\rm.gif" />
+    <Content Include="kindeditor\skins\default.css" />
+    <Content Include="kindeditor\skins\default\bg.gif" />
+    <Content Include="kindeditor\skins\default\default.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\article.aspx.cs">
+      <DependentUpon>article.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\article.aspx.designer.cs">
+      <DependentUpon>article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\articletb.aspx.cs">
+      <DependentUpon>articletb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\articletb.aspx.designer.cs">
+      <DependentUpon>articletb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\bbs.aspx.cs">
+      <DependentUpon>bbs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\bbs.aspx.designer.cs">
+      <DependentUpon>bbs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\bbstb.aspx.cs">
+      <DependentUpon>bbstb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\bbstb.aspx.designer.cs">
+      <DependentUpon>bbstb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\correcting.aspx.cs">
+      <DependentUpon>correcting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\correcting.aspx.designer.cs">
+      <DependentUpon>correcting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\correctingtb.aspx.cs">
+      <DependentUpon>correctingtb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\correctingtb.aspx.designer.cs">
+      <DependentUpon>correctingtb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\homework.aspx.cs">
+      <DependentUpon>homework.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\homework.aspx.designer.cs">
+      <DependentUpon>homework.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\homeworktb.aspx.cs">
+      <DependentUpon>homeworktb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\homeworktb.aspx.designer.cs">
+      <DependentUpon>homeworktb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\material.aspx.cs">
+      <DependentUpon>material.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\material.aspx.designer.cs">
+      <DependentUpon>material.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\materialtb.aspx.cs">
+      <DependentUpon>materialtb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\materialtb.aspx.designer.cs">
+      <DependentUpon>materialtb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\menulevel1.aspx.cs">
+      <DependentUpon>menulevel1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\menulevel1.aspx.designer.cs">
+      <DependentUpon>menulevel1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\menulevel1tb.aspx.cs">
+      <DependentUpon>menulevel1tb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\menulevel1tb.aspx.designer.cs">
+      <DependentUpon>menulevel1tb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\menulevel2.aspx.cs">
+      <DependentUpon>menulevel2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\menulevel2.aspx.designer.cs">
+      <DependentUpon>menulevel2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\menulevel2tb.aspx.cs">
+      <DependentUpon>menulevel2tb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\menulevel2tb.aspx.designer.cs">
+      <DependentUpon>menulevel2tb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\messgae.aspx.cs">
+      <DependentUpon>messgae.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\messgae.aspx.designer.cs">
+      <DependentUpon>messgae.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\messgaetb.aspx.cs">
+      <DependentUpon>messgaetb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\messgaetb.aspx.designer.cs">
+      <DependentUpon>messgaetb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\sendmaterial.aspx.cs">
+      <DependentUpon>sendmaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\sendmaterial.aspx.designer.cs">
+      <DependentUpon>sendmaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\sendarticle.aspx.cs">
+      <DependentUpon>sendarticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\sendarticle.aspx.designer.cs">
+      <DependentUpon>sendarticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\themess.aspx.cs">
+      <DependentUpon>themess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\themess.aspx.designer.cs">
+      <DependentUpon>themess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\themesstb.aspx.cs">
+      <DependentUpon>themesstb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\themesstb.aspx.designer.cs">
+      <DependentUpon>themesstb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\thetitle.aspx.cs">
+      <DependentUpon>thetitle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\thetitle.aspx.designer.cs">
+      <DependentUpon>thetitle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\thetitletb.aspx.cs">
+      <DependentUpon>thetitletb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\thetitletb.aspx.designer.cs">
+      <DependentUpon>thetitletb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\userinfo.aspx.cs">
+      <DependentUpon>userinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\userinfo.aspx.designer.cs">
+      <DependentUpon>userinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\sendtext.aspx.cs">
+      <DependentUpon>sendtext.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\sendtext.aspx.designer.cs">
+      <DependentUpon>sendtext.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\userinfotb.aspx.cs">
+      <DependentUpon>userinfotb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\userinfotb.aspx.designer.cs">
+      <DependentUpon>userinfotb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\informations.aspx.cs">
+      <DependentUpon>informations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\informations.aspx.designer.cs">
+      <DependentUpon>informations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\users.aspx.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\users.aspx.designer.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\informationstb.aspx.cs">
+      <DependentUpon>informationstb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\informationstb.aspx.designer.cs">
+      <DependentUpon>informationstb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\userstb.aspx.cs">
+      <DependentUpon>userstb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\userstb.aspx.designer.cs">
+      <DependentUpon>userstb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\AccessTokenBox.cs" />
+    <Content Include="App_Code\WxLogin.cs" />
+    <Compile Include="Customer.aspx.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer.aspx.designer.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="handler\geteway.ashx.cs">
+      <DependentUpon>geteway.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="weixin\bbs.aspx.cs">
+      <DependentUpon>bbs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\bbs.aspx.designer.cs">
+      <DependentUpon>bbs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\correcting.aspx.cs">
+      <DependentUpon>correcting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\correcting.aspx.designer.cs">
+      <DependentUpon>correcting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\correctingtb.aspx.cs">
+      <DependentUpon>correctingtb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\correctingtb.aspx.designer.cs">
+      <DependentUpon>correctingtb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\homework.aspx.cs">
+      <DependentUpon>homework.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\homework.aspx.designer.cs">
+      <DependentUpon>homework.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\page.Master.cs">
+      <DependentUpon>page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\page.Master.designer.cs">
+      <DependentUpon>page.Master</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\main.Master.cs">
+      <DependentUpon>main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\main.Master.designer.cs">
+      <DependentUpon>main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\informations.aspx.cs">
+      <DependentUpon>informations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\informations.aspx.designer.cs">
+      <DependentUpon>informations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\informationstb.aspx.cs">
+      <DependentUpon>informationstb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\informationstb.aspx.designer.cs">
+      <DependentUpon>informationstb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\regsis.aspx.cs">
+      <DependentUpon>regsis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\regsis.aspx.designer.cs">
+      <DependentUpon>regsis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\tercorrecting.aspx.cs">
+      <DependentUpon>tercorrecting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\tercorrecting.aspx.designer.cs">
+      <DependentUpon>tercorrecting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\tercorrectingtb.aspx.cs">
+      <DependentUpon>tercorrectingtb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\tercorrectingtb.aspx.designer.cs">
+      <DependentUpon>tercorrectingtb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\terthemess.aspx.cs">
+      <DependentUpon>terthemess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\terthemess.aspx.designer.cs">
+      <DependentUpon>terthemess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\themess.aspx.cs">
+      <DependentUpon>themess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\themess.aspx.designer.cs">
+      <DependentUpon>themess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\terthemesstb.aspx.cs">
+      <DependentUpon>terthemesstb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\terthemesstb.aspx.designer.cs">
+      <DependentUpon>terthemesstb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\themesstb.aspx.cs">
+      <DependentUpon>themesstb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\themesstb.aspx.designer.cs">
+      <DependentUpon>themesstb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin\userinfo.aspx.cs">
+      <DependentUpon>userinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin\userinfo.aspx.designer.cs">
+      <DependentUpon>userinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wx.ashx.cs">
+      <DependentUpon>wx.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\default.css.bak" />
+    <Content Include="My97DatePicker\lang\vssver2.scc" />
+    <Content Include="My97DatePicker\My97DatePicker\lang\vssver2.scc" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\default\vssver2.scc" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\vssver2.scc" />
+    <Content Include="My97DatePicker\My97DatePicker\skin\whyGreen\vssver2.scc" />
+    <Content Include="My97DatePicker\My97DatePicker\vssver2.scc" />
+    <Content Include="My97DatePicker\skin\default\vssver2.scc" />
+    <Content Include="My97DatePicker\skin\vssver2.scc" />
+    <Content Include="My97DatePicker\skin\whyGreen\vssver2.scc" />
+    <Content Include="My97DatePicker\vssver2.scc" />
+    <Content Include="bin\LitJSON.dll.refresh" />
+    <Content Include="handler\upload_json.ashx" />
+    <Content Include="handler\geteway.ashx" />
+    <None Include="Properties\PublishProfiles\wxTest.pubxml" />
+    <Content Include="Uploadify.ashx" />
+    <Content Include="Uploadify\uploadify.fla" />
+    <None Include="Properties\PublishProfiles\发布.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="kindeditor\skins\common\Thumbs.db" />
+    <Content Include="kindeditor\skins\default\Thumbs.db" />
+    <Content Include="weixin\assets\bootstrap\css\bootstrap.css" />
+    <Content Include="weixin\assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="weixin\assets\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="weixin\assets\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="weixin\assets\bootstrap\js\bootstrap.js" />
+    <Content Include="weixin\assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="weixin\assets\css\style.css" />
+    <Content Include="weixin\assets\img\backgrounds\1.jpg" />
+    <Content Include="weixin\assets\img\backgrounds\2.jpg" />
+    <Content Include="weixin\assets\img\backgrounds\3.jpg" />
+    <Content Include="weixin\assets\img\blog.png" />
+    <Content Include="weixin\assets\img\home.png" />
+    <Content Include="weixin\assets\img\iphone.png" />
+    <Content Include="weixin\assets\img\pattern.jpg" />
+    <Content Include="weixin\assets\img\pencil.png" />
+    <Content Include="weixin\assets\js\jquery-1.8.2.min.js" />
+    <Content Include="weixin\assets\js\jquery.backstretch.min.js" />
+    <Content Include="weixin\assets\js\scripts.js" />
+    <Content Include="weixin\bbs.aspx" />
+    <Content Include="weixin\correcting.aspx" />
+    <Content Include="weixin\correctingtb.aspx" />
+    <Content Include="weixin\css\3gbx.css" />
+    <Content Include="weixin\css\bootstrap-min.css" />
+    <Content Include="weixin\css\doc_center.css" />
+    <Content Include="weixin\css\IE.css" />
+    <Content Include="weixin\css\im.css" />
+    <Content Include="weixin\css\index.css" />
+    <Content Include="weixin\css\login-m-2.0.css" />
+    <Content Include="weixin\css\main.css" />
+    <Content Include="weixin\css\m_reset.css" />
+    <Content Include="weixin\css\popup.css" />
+    <Content Include="weixin\css\primary-autumn.css" />
+    <Content Include="weixin\css\primary-black.css" />
+    <Content Include="weixin\css\primary-blue-grey.css" />
+    <Content Include="weixin\css\primary-blue.css" />
+    <Content Include="weixin\css\primary-coffee.css" />
+    <Content Include="weixin\css\primary-fire.css" />
+    <Content Include="weixin\css\primary-golden.css" />
+    <Content Include="weixin\css\primary-green.css" />
+    <Content Include="weixin\css\primary-lime-green.css" />
+    <Content Include="weixin\css\primary-periwinkle.css" />
+    <Content Include="weixin\css\primary-pink.css" />
+    <Content Include="weixin\css\primary-purple.css" />
+    <Content Include="weixin\css\primary-red.css" />
+    <Content Include="weixin\css\primary-royal-blue.css" />
+    <Content Include="weixin\css\primary-silver.css" />
+    <Content Include="weixin\css\primary-sky-blue.css" />
+    <Content Include="weixin\css\primary-teal-grey.css" />
+    <Content Include="weixin\css\primary-teal.css" />
+    <Content Include="weixin\css\secondary-autumn.css" />
+    <Content Include="weixin\css\secondary-black.css" />
+    <Content Include="weixin\css\secondary-blue-grey.css" />
+    <Content Include="weixin\css\secondary-blue.css" />
+    <Content Include="weixin\css\secondary-coffee.css" />
+    <Content Include="weixin\css\secondary-fire.css" />
+    <Content Include="weixin\css\secondary-golden.css" />
+    <Content Include="weixin\css\secondary-green.css" />
+    <Content Include="weixin\css\secondary-lime-green.css" />
+    <Content Include="weixin\css\secondary-periwinkle.css" />
+    <Content Include="weixin\css\secondary-pink.css" />
+    <Content Include="weixin\css\secondary-purple.css" />
+    <Content Include="weixin\css\secondary-red.css" />
+    <Content Include="weixin\css\secondary-royal-blue.css" />
+    <Content Include="weixin\css\secondary-silver.css" />
+    <Content Include="weixin\css\secondary-sky-blue.css" />
+    <Content Include="weixin\css\secondary-teal-grey.css" />
+    <Content Include="weixin\css\secondary-teal.css" />
+    <Content Include="weixin\css\style-m-2.0.css" />
+    <Content Include="weixin\css\style.css" />
+    <Content Include="weixin\css\stylesheet.css" />
+    <Content Include="weixin\css\symptom.css" />
+    <Content Include="weixin\css\touch.css" />
+    <Content Include="weixin\css\zt-Cdisease.css" />
+    <Content Include="weixin\css\_mobile.css" />
+    <Content Include="weixin\css\_style.css" />
+    <Content Include="weixin\homework.aspx" />
+    <Content Include="weixin\img\js\cloud.js" />
+    <Content Include="weixin\img\js\DD_belatedPNG_0.0.8a-min.js" />
+    <Content Include="weixin\img\js\easyloader.js" />
+    <Content Include="weixin\img\js\esay.js" />
+    <Content Include="weixin\img\js\format+zh_CN,default,corechart.I.js" />
+    <Content Include="weixin\img\js\frame.js" />
+    <Content Include="weixin\img\js\jquery-1.7.2.min.js" />
+    <Content Include="weixin\img\js\jquery.ba-resize.min.js" />
+    <Content Include="weixin\img\js\jquery.easyui.min.js" />
+    <Content Include="weixin\img\js\jquery.gvChart-1.0.1.min.js" />
+    <Content Include="weixin\img\js\jquery.idTabs.min.js" />
+    <Content Include="weixin\img\js\jquery.js" />
+    <Content Include="weixin\img\js\jquery.min.js" />
+    <Content Include="weixin\img\js\jsapi.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-af.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-bg.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-ca.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-cs.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-cz.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-da.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-de.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-en.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-es.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-fr.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-nl.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-tr.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-zh_CN.js" />
+    <Content Include="weixin\img\js\locale\easyui-lang-zh_TW.js" />
+    <Content Include="weixin\img\js\PIE.htc" />
+    <Content Include="weixin\img\js\plugins\jquery.accordion.js" />
+    <Content Include="weixin\img\js\plugins\jquery.calendar.js" />
+    <Content Include="weixin\img\js\plugins\jquery.combo.js" />
+    <Content Include="weixin\img\js\plugins\jquery.combobox.js" />
+    <Content Include="weixin\img\js\plugins\jquery.combogrid.js" />
+    <Content Include="weixin\img\js\plugins\jquery.combotree.js" />
+    <Content Include="weixin\img\js\plugins\jquery.datagrid.js" />
+    <Content Include="weixin\img\js\plugins\jquery.datebox.js" />
+    <Content Include="weixin\img\js\plugins\jquery.datetimebox.js" />
+    <Content Include="weixin\img\js\plugins\jquery.dialog.js" />
+    <Content Include="weixin\img\js\plugins\jquery.draggable.js" />
+    <Content Include="weixin\img\js\plugins\jquery.droppable.js" />
+    <Content Include="weixin\img\js\plugins\jquery.form.js" />
+    <Content Include="weixin\img\js\plugins\jquery.layout.js" />
+    <Content Include="weixin\img\js\plugins\jquery.linkbutton.js" />
+    <Content Include="weixin\img\js\plugins\jquery.menu.js" />
+    <Content Include="weixin\img\js\plugins\jquery.menubutton.js" />
+    <Content Include="weixin\img\js\plugins\jquery.messager.js" />
+    <Content Include="weixin\img\js\plugins\jquery.numberbox.js" />
+    <Content Include="weixin\img\js\plugins\jquery.numberspinner.js" />
+    <Content Include="weixin\img\js\plugins\jquery.pagination.js" />
+    <Content Include="weixin\img\js\plugins\jquery.panel.js" />
+    <Content Include="weixin\img\js\plugins\jquery.parser.js" />
+    <Content Include="weixin\img\js\plugins\jquery.progressbar.js" />
+    <Content Include="weixin\img\js\plugins\jquery.propertygrid.js" />
+    <Content Include="weixin\img\js\plugins\jquery.resizable.js" />
+    <Content Include="weixin\img\js\plugins\jquery.searchbox.js" />
+    <Content Include="weixin\img\js\plugins\jquery.slider.js" />
+    <Content Include="weixin\img\js\plugins\jquery.spinner.js" />
+    <Content Include="weixin\img\js\plugins\jquery.splitbutton.js" />
+    <Content Include="weixin\img\js\plugins\jquery.tabs.js" />
+    <Content Include="weixin\img\js\plugins\jquery.timespinner.js" />
+    <Content Include="weixin\img\js\plugins\jquery.tree.js" />
+    <Content Include="weixin\img\js\plugins\jquery.treegrid.js" />
+    <Content Include="weixin\img\js\plugins\jquery.validatebox.js" />
+    <Content Include="weixin\img\js\plugins\jquery.window.js" />
+    <Content Include="weixin\img\js\select-ui.min.js" />
+    <Content Include="weixin\img\js\themes\default\accordion.css" />
+    <Content Include="weixin\img\js\themes\default\calendar.css" />
+    <Content Include="weixin\img\js\themes\default\combo.css" />
+    <Content Include="weixin\img\js\themes\default\combobox.css" />
+    <Content Include="weixin\img\js\themes\default\datagrid.css" />
+    <Content Include="weixin\img\js\themes\default\datebox.css" />
+    <Content Include="weixin\img\js\themes\default\dialog.css" />
+    <Content Include="weixin\img\js\themes\default\easyui.css" />
+    <Content Include="weixin\img\js\themes\default\images\accordion_collapse.png" />
+    <Content Include="weixin\img\js\themes\default\images\accordion_expand.png" />
+    <Content Include="weixin\img\js\themes\default\images\blank.gif" />
+    <Content Include="weixin\img\js\themes\default\images\button_a_bg.gif" />
+    <Content Include="weixin\img\js\themes\default\images\button_plain_hover.png" />
+    <Content Include="weixin\img\js\themes\default\images\button_span_bg.gif" />
+    <Content Include="weixin\img\js\themes\default\images\calendar_nextmonth.gif" />
+    <Content Include="weixin\img\js\themes\default\images\calendar_nextyear.gif" />
+    <Content Include="weixin\img\js\themes\default\images\calendar_prevmonth.gif" />
+    <Content Include="weixin\img\js\themes\default\images\calendar_prevyear.gif" />
+    <Content Include="weixin\img\js\themes\default\images\combo_arrow.gif" />
+    <Content Include="weixin\img\js\themes\default\images\datagrid_header_bg.gif" />
+    <Content Include="weixin\img\js\themes\default\images\datagrid_row_collapse.gif" />
+    <Content Include="weixin\img\js\themes\default\images\datagrid_row_expand.gif" />
+    <Content Include="weixin\img\js\themes\default\images\datagrid_sort_asc.gif" />
+    <Content Include="weixin\img\js\themes\default\images\datagrid_sort_desc.gif" />
+    <Content Include="weixin\img\js\themes\default\images\datagrid_title_bg.png" />
+    <Content Include="weixin\img\js\themes\default\images\datebox_arrow.png" />
+    <Content Include="weixin\img\js\themes\default\images\layout_button_down.gif" />
+    <Content Include="weixin\img\js\themes\default\images\layout_button_left.gif" />
+    <Content Include="weixin\img\js\themes\default\images\layout_button_right.gif" />
+    <Content Include="weixin\img\js\themes\default\images\layout_button_up.gif" />
+    <Content Include="weixin\img\js\themes\default\images\menu.gif" />
+    <Content Include="weixin\img\js\themes\default\images\menu_downarrow.png" />
+    <Content Include="weixin\img\js\themes\default\images\menu_rightarrow.png" />
+    <Content Include="weixin\img\js\themes\default\images\menu_sep.png" />
+    <Content Include="weixin\img\js\themes\default\images\menu_split_downarrow.png" />
+    <Content Include="weixin\img\js\themes\default\images\messager_error.gif" />
+    <Content Include="weixin\img\js\themes\default\images\messager_info.gif" />
+    <Content Include="weixin\img\js\themes\default\images\messager_question.gif" />
+    <Content Include="weixin\img\js\themes\default\images\messager_warning.gif" />
+    <Content Include="weixin\img\js\themes\default\images\pagination_first.gif" />
+    <Content Include="weixin\img\js\themes\default\images\pagination_last.gif" />
+    <Content Include="weixin\img\js\themes\default\images\pagination_load.png" />
+    <Content Include="weixin\img\js\themes\default\images\pagination_loading.gif" />
+    <Content Include="weixin\img\js\themes\default\images\pagination_next.gif" />
+    <Content Include="weixin\img\js\themes\default\images\pagination_prev.gif" />
+    <Content Include="weixin\img\js\themes\default\images\panel_loading.gif" />
+    <Content Include="weixin\img\js\themes\default\images\panel_title.png" />
+    <Content Include="weixin\img\js\themes\default\images\panel_tools.gif" />
+    <Content Include="weixin\img\js\themes\default\images\panel_tool_collapse.gif" />
+    <Content Include="weixin\img\js\themes\default\images\panel_tool_expand.gif" />
+    <Content Include="weixin\img\js\themes\default\images\searchbox_button.png" />
+    <Content Include="weixin\img\js\themes\default\images\slider_handle.png" />
+    <Content Include="weixin\img\js\themes\default\images\spinner_arrow_down.gif" />
+    <Content Include="weixin\img\js\themes\default\images\spinner_arrow_up.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tabs_active.png" />
+    <Content Include="weixin\img\js\themes\default\images\tabs_close.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tabs_enabled.png" />
+    <Content Include="weixin\img\js\themes\default\images\tabs_leftarrow.png" />
+    <Content Include="weixin\img\js\themes\default\images\tabs_rightarrow.png" />
+    <Content Include="weixin\img\js\themes\default\images\tree_arrows.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tree_checkbox_0.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tree_checkbox_1.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tree_checkbox_2.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tree_dnd_no.png" />
+    <Content Include="weixin\img\js\themes\default\images\tree_dnd_yes.png" />
+    <Content Include="weixin\img\js\themes\default\images\tree_elbow.png" />
+    <Content Include="weixin\img\js\themes\default\images\tree_file.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tree_folder.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tree_folder_open.gif" />
+    <Content Include="weixin\img\js\themes\default\images\tree_loading.gif" />
+    <Content Include="weixin\img\js\themes\default\images\validatebox_pointer.gif" />
+    <Content Include="weixin\img\js\themes\default\images\validatebox_warning.png" />
+    <Content Include="weixin\img\js\themes\default\layout.css" />
+    <Content Include="weixin\img\js\themes\default\linkbutton.css" />
+    <Content Include="weixin\img\js\themes\default\menu.css" />
+    <Content Include="weixin\img\js\themes\default\menubutton.css" />
+    <Content Include="weixin\img\js\themes\default\messager.css" />
+    <Content Include="weixin\img\js\themes\default\pagination.css" />
+    <Content Include="weixin\img\js\themes\default\panel.css" />
+    <Content Include="weixin\img\js\themes\default\progressbar.css" />
+    <Content Include="weixin\img\js\themes\default\propertygrid.css" />
+    <Content Include="weixin\img\js\themes\default\searchbox.css" />
+    <Content Include="weixin\img\js\themes\default\slider.css" />
+    <Content Include="weixin\img\js\themes\default\spinner.css" />
+    <Content Include="weixin\img\js\themes\default\splitbutton.css" />
+    <Content Include="weixin\img\js\themes\default\tabs.css" />
+    <Content Include="weixin\img\js\themes\default\tree.css" />
+    <Content Include="weixin\img\js\themes\default\validatebox.css" />
+    <Content Include="weixin\img\js\themes\default\window.css" />
+    <Content Include="weixin\img\js\themes\gray\accordion.css" />
+    <Content Include="weixin\img\js\themes\gray\calendar.css" />
+    <Content Include="weixin\img\js\themes\gray\combo.css" />
+    <Content Include="weixin\img\js\themes\gray\combobox.css" />
+    <Content Include="weixin\img\js\themes\gray\datagrid.css" />
+    <Content Include="weixin\img\js\themes\gray\datebox.css" />
+    <Content Include="weixin\img\js\themes\gray\dialog.css" />
+    <Content Include="weixin\img\js\themes\gray\easyui.css" />
+    <Content Include="weixin\img\js\themes\gray\images\accordion_collapse.png" />
+    <Content Include="weixin\img\js\themes\gray\images\accordion_expand.png" />
+    <Content Include="weixin\img\js\themes\gray\images\blank.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\button_a_bg.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\button_plain_hover.png" />
+    <Content Include="weixin\img\js\themes\gray\images\button_span_bg.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\calendar_nextmonth.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\calendar_nextyear.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\calendar_prevmonth.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\calendar_prevyear.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\combo_arrow.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\datagrid_header_bg.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\datagrid_row_collapse.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\datagrid_row_expand.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\datagrid_sort_asc.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\datagrid_sort_desc.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\datagrid_title_bg.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\datebox_arrow.png" />
+    <Content Include="weixin\img\js\themes\gray\images\layout_button_down.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\layout_button_left.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\layout_button_right.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\layout_button_up.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\menu.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\menu_downarrow.png" />
+    <Content Include="weixin\img\js\themes\gray\images\menu_rightarrow.png" />
+    <Content Include="weixin\img\js\themes\gray\images\menu_sep.png" />
+    <Content Include="weixin\img\js\themes\gray\images\menu_split_downarrow.png" />
+    <Content Include="weixin\img\js\themes\gray\images\messager_error.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\messager_info.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\messager_question.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\messager_warning.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\pagination_first.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\pagination_last.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\pagination_load.png" />
+    <Content Include="weixin\img\js\themes\gray\images\pagination_loading.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\pagination_next.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\pagination_prev.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\panel_loading.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\panel_title.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\panel_tools.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\panel_tool_collapse.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\panel_tool_expand.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\searchbox_button.png" />
+    <Content Include="weixin\img\js\themes\gray\images\slider_handle.png" />
+    <Content Include="weixin\img\js\themes\gray\images\spinner_arrow_down.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\spinner_arrow_up.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tabs_close.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tabs_enabled.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tabs_leftarrow.png" />
+    <Content Include="weixin\img\js\themes\gray\images\tabs_rightarrow.png" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_arrows.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_checkbox_0.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_checkbox_1.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_checkbox_2.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_dnd_no.png" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_dnd_yes.png" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_elbow.png" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_file.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_folder.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_folder_open.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\tree_loading.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\validatebox_pointer.gif" />
+    <Content Include="weixin\img\js\themes\gray\images\validatebox_warning.png" />
+    <Content Include="weixin\img\js\themes\gray\layout.css" />
+    <Content Include="weixin\img\js\themes\gray\linkbutton.css" />
+    <Content Include="weixin\img\js\themes\gray\menu.css" />
+    <Content Include="weixin\img\js\themes\gray\menubutton.css" />
+    <Content Include="weixin\img\js\themes\gray\messager.css" />
+    <Content Include="weixin\img\js\themes\gray\pagination.css" />
+    <Content Include="weixin\img\js\themes\gray\panel.css" />
+    <Content Include="weixin\img\js\themes\gray\progressbar.css" />
+    <Content Include="weixin\img\js\themes\gray\propertygrid.css" />
+    <Content Include="weixin\img\js\themes\gray\searchbox.css" />
+    <Content Include="weixin\img\js\themes\gray\slider.css" />
+    <Content Include="weixin\img\js\themes\gray\spinner.css" />
+    <Content Include="weixin\img\js\themes\gray\splitbutton.css" />
+    <Content Include="weixin\img\js\themes\gray\tabs.css" />
+    <Content Include="weixin\img\js\themes\gray\tree.css" />
+    <Content Include="weixin\img\js\themes\gray\validatebox.css" />
+    <Content Include="weixin\img\js\themes\gray\window.css" />
+    <Content Include="weixin\img\js\themes\icon.css" />
+    <Content Include="weixin\img\js\themes\icons\back.png" />
+    <Content Include="weixin\img\js\themes\icons\blank.gif" />
+    <Content Include="weixin\img\js\themes\icons\cancel.png" />
+    <Content Include="weixin\img\js\themes\icons\cut.png" />
+    <Content Include="weixin\img\js\themes\icons\edit_add.png" />
+    <Content Include="weixin\img\js\themes\icons\edit_remove.png" />
+    <Content Include="weixin\img\js\themes\icons\filesave.png" />
+    <Content Include="weixin\img\js\themes\icons\help.png" />
+    <Content Include="weixin\img\js\themes\icons\mini_add.png" />
+    <Content Include="weixin\img\js\themes\icons\mini_edit.png" />
+    <Content Include="weixin\img\js\themes\icons\mini_refresh.png" />
+    <Content Include="weixin\img\js\themes\icons\no.png" />
+    <Content Include="weixin\img\js\themes\icons\ok.png" />
+    <Content Include="weixin\img\js\themes\icons\pencil.png" />
+    <Content Include="weixin\img\js\themes\icons\print.png" />
+    <Content Include="weixin\img\js\themes\icons\redo.png" />
+    <Content Include="weixin\img\js\themes\icons\reload.png" />
+    <Content Include="weixin\img\js\themes\icons\search.png" />
+    <Content Include="weixin\img\js\themes\icons\sum.png" />
+    <Content Include="weixin\img\js\themes\icons\tip.png" />
+    <Content Include="weixin\img\js\themes\icons\undo.png" />
+    <Content Include="weixin\img\js\toogle.js" />
+    <Content Include="weixin\img\one_1.gif" />
+    <Content Include="weixin\img\style\reset.css" />
+    <Content Include="weixin\img\style\root.css" />
+    <Content Include="weixin\js\common.js" />
+    <Content Include="weixin\js\jqueryMin.js" />
+    <Content Include="weixin\js\my-doc.js" />
+    <Content Include="weixin\js\touchSlide.js" />
+    <Content Include="weixin\login.aspx" />
+    <Content Include="weixin\img\arrow-ts-hover.png" />
+    <Content Include="weixin\img\arrow-ts.png" />
+    <Content Include="weixin\img\avatar.png" />
+    <Content Include="weixin\img\back-button.png" />
+    <Content Include="weixin\img\blue-button.png" />
+    <Content Include="weixin\img\bodybg.png" />
+    <Content Include="weixin\img\close-icon.png" />
+    <Content Include="weixin\img\close-icon2.png" />
+    <Content Include="weixin\img\create.png" />
+    <Content Include="weixin\img\dto-gray.png" />
+    <Content Include="weixin\img\error.png" />
+    <Content Include="weixin\img\gra-linear-with-dot.png" />
+    <Content Include="weixin\img\gra-linear.png" />
+    <Content Include="weixin\img\header-bg.png" />
+    <Content Include="weixin\img\header-button.png" />
+    <Content Include="weixin\img\icons\alert.png" />
+    <Content Include="weixin\img\icons\blocks.png" />
+    <Content Include="weixin\img\icons\bubble.png" />
+    <Content Include="weixin\img\icons\error.png" />
+    <Content Include="weixin\img\icons\error\accept.png" />
+    <Content Include="weixin\img\icons\error\cross.png" />
+    <Content Include="weixin\img\icons\error\error.png" />
+    <Content Include="weixin\img\icons\error\help.png" />
+    <Content Include="weixin\img\icons\files.png" />
+    <Content Include="weixin\img\icons\graph.png" />
+    <Content Include="weixin\img\icons\mini\arrow.png" />
+    <Content Include="weixin\img\icons\mini\close-opacity-21.png" />
+    <Content Include="weixin\img\icons\mini\close-opacity-42.png" />
+    <Content Include="weixin\img\icons\mini\plus.gif" />
+    <Content Include="weixin\img\icons\modx.png" />
+    <Content Include="weixin\img\icons\page.png" />
+    <Content Include="weixin\img\icons\personal-folder.png" />
+    <Content Include="weixin\img\icons\photo-gallery.png" />
+    <Content Include="weixin\img\input-bg.png" />
+    <Content Include="weixin\img\logo.png" />
+    <Content Include="weixin\img\menu-hover.png" />
+    <Content Include="weixin\img\page-top.png" />
+    <Content Include="weixin\img\photo\1.jpg" />
+    <Content Include="weixin\img\photo\2.jpg" />
+    <Content Include="weixin\img\photo\3.jpg" />
+    <Content Include="weixin\img\photo\4.jpg" />
+    <Content Include="weixin\img\photo\5.jpg" />
+    <Content Include="weixin\img\photo\6.jpg" />
+    <Content Include="weixin\img\search-blue.png" />
+    <Content Include="weixin\img\search.png" />
+    <Content Include="weixin\js\frame.js" />
+    <Content Include="weixin\js\jquery.min.js" />
+    <Content Include="weixin\js\toogle.js" />
+    <Content Include="weixin\informations.aspx" />
+    <Content Include="weixin\informationstb.aspx" />
+    <Content Include="weixin\regsis.aspx" />
+    <Content Include="weixin\style\form.html" />
+    <Content Include="weixin\style\reset.css" />
+    <Content Include="weixin\style\root.css" />
+    <Content Include="weixin\tercorrecting.aspx" />
+    <Content Include="weixin\tercorrectingtb.aspx" />
+    <Content Include="weixin\terthemess.aspx" />
+    <Content Include="weixin\themess.aspx" />
+    <Content Include="weixin\terthemesstb.aspx" />
+    <Content Include="weixin\themesstb.aspx" />
+    <Content Include="weixin\userinfo.aspx" />
+    <Content Include="wx.ashx" />
+    <Content Include="weixin\main.Master" />
+    <Content Include="weixin\page.Master" />
+    <Content Include="weixin\assets\bootstrap\img\Thumbs.db" />
+    <Content Include="weixin\assets\img\backgrounds\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{5031bd49-2b3d-47b9-a16f-6fbabf4724d6}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{067aa456-71e5-4b8e-9073-ec977a694cde}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WxApi\WxApi.csproj">
+      <Project>{b836ca62-286e-4946-9532-acce58baca6e}</Project>
+      <Name>WxApi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7328</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7328/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>http://ypyle.xicp.net</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

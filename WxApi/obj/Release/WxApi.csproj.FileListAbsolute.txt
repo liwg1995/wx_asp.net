@@ -1,0 +1,51 @@
+J:\测试代码\JsonTest\MyBookCode\WxApi\bin\Release\WxApi.dll
+J:\测试代码\JsonTest\MyBookCode\WxApi\bin\Release\WxApi.pdb
+J:\测试代码\JsonTest\MyBookCode\WxApi\bin\Release\Newtonsoft.Json.dll
+J:\测试代码\JsonTest\MyBookCode\WxApi\bin\Release\Newtonsoft.Json.pdb
+J:\测试代码\JsonTest\MyBookCode\WxApi\bin\Release\Newtonsoft.Json.xml
+J:\测试代码\JsonTest\MyBookCode\WxApi\obj\Release\WxApi.ErrorCode.resources
+J:\测试代码\JsonTest\MyBookCode\WxApi\obj\Release\WxApi.csproj.GenerateResource.Cache
+J:\测试代码\JsonTest\MyBookCode\WxApi\obj\Release\WxApi.dll
+J:\测试代码\JsonTest\MyBookCode\WxApi\obj\Release\WxApi.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\bin\Release\WxApi.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\bin\Release\WxApi.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\bin\Release\Gma.QrCodeNet.Encoding.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\bin\Release\Newtonsoft.Json.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\bin\Release\Gma.QrCodeNet.Encoding.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\bin\Release\Gma.QrCodeNet.Encoding.xml
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\bin\Release\Newtonsoft.Json.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\bin\Release\Newtonsoft.Json.xml
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\obj\Release\WxApi.Code.resources
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\obj\Release\WxApi.SemanticErrCode.resources
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\obj\Release\WxApi.csproj.GenerateResource.Cache
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\obj\Release\WxApi.dll
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\obj\Release\WxApi.pdb
+E:\2016\微信DEMO\27116微信公众平台开发与案例分析 在线资源\WxApi\obj\Release\WxApi.csprojResolveAssemblyReference.cache
+E:\2016微信项目\源代码\WxApi\bin\Release\WxApi.dll
+E:\2016微信项目\源代码\WxApi\bin\Release\WxApi.pdb
+E:\2016微信项目\源代码\WxApi\bin\Release\Gma.QrCodeNet.Encoding.dll
+E:\2016微信项目\源代码\WxApi\bin\Release\Newtonsoft.Json.dll
+E:\2016微信项目\源代码\WxApi\bin\Release\Gma.QrCodeNet.Encoding.pdb
+E:\2016微信项目\源代码\WxApi\bin\Release\Gma.QrCodeNet.Encoding.xml
+E:\2016微信项目\源代码\WxApi\bin\Release\Newtonsoft.Json.pdb
+E:\2016微信项目\源代码\WxApi\bin\Release\Newtonsoft.Json.xml
+E:\2016微信项目\源代码\WxApi\obj\Release\WxApi.csprojResolveAssemblyReference.cache
+E:\2016微信项目\源代码\WxApi\obj\Release\WxApi.Code.resources
+E:\2016微信项目\源代码\WxApi\obj\Release\WxApi.SemanticErrCode.resources
+E:\2016微信项目\源代码\WxApi\obj\Release\WxApi.csproj.GenerateResource.Cache
+E:\2016微信项目\源代码\WxApi\obj\Release\WxApi.dll
+E:\2016微信项目\源代码\WxApi\obj\Release\WxApi.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\bin\Release\WxApi.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\bin\Release\WxApi.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\bin\Release\Gma.QrCodeNet.Encoding.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\bin\Release\Newtonsoft.Json.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\bin\Release\Gma.QrCodeNet.Encoding.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\bin\Release\Gma.QrCodeNet.Encoding.xml
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\bin\Release\Newtonsoft.Json.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\bin\Release\Newtonsoft.Json.xml
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\obj\Release\WxApi.csprojResolveAssemblyReference.cache
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\obj\Release\WxApi.Code.resources
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\obj\Release\WxApi.SemanticErrCode.resources
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\obj\Release\WxApi.csproj.GenerateResource.Cache
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\obj\Release\WxApi.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\WxApi\obj\Release\WxApi.pdb

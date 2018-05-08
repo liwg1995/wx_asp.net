@@ -1,0 +1,25 @@
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\admin\Desktop\27116微信公众平台开发与案例分析 在线资源\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\源代码\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\admin\Desktop\源代码\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\源代码\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\admin\Desktop\源代码\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\微信项目\源代码\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\admin\Desktop\微信项目\源代码\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\微信项目\源代码\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\admin\Desktop\微信项目\源代码\DataAccess\obj\Debug\DataAccess.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\bin\Debug\DataAccess.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\bin\Debug\DataAccess.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\obj\Debug\DataAccess.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\obj\Debug\DataAccess.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\DataAccess\bin\Debug\DataAccess.dll
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\DataAccess\bin\Debug\DataAccess.pdb
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\DataAccess\obj\Debug\DataAccess.dll
+E:\2017\2017年4月\(微信)班级管理系统的设计与实现\源代码\DataAccess\obj\Debug\DataAccess.pdb
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\DataAccess\bin\Debug\DataAccess.dll
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\DataAccess\bin\Debug\DataAccess.pdb
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\DataAccess\obj\Debug\DataAccess.dll
+E:\2017\2017年4月\(微信)基于微信的操作系统课程学习平台开发\源代码\DataAccess\obj\Debug\DataAccess.pdb

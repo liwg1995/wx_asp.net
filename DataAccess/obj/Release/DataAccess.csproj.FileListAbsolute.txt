@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\微信项目\源代码\DataAccess\bin\Release\DataAccess.dll
+C:\Users\admin\Desktop\微信项目\源代码\DataAccess\bin\Release\DataAccess.pdb
+C:\Users\admin\Desktop\微信项目\源代码\DataAccess\obj\Release\DataAccess.dll
+C:\Users\admin\Desktop\微信项目\源代码\DataAccess\obj\Release\DataAccess.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\bin\Release\DataAccess.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\bin\Release\DataAccess.pdb
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\obj\Release\DataAccess.dll
+E:\2016\2016年4月\(微信)基于微信平台的批改作业系统\源代码\DataAccess\obj\Release\DataAccess.pdb
